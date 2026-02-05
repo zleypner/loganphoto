@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, Award, Camera, Heart } from 'lucide-react'
+import { Award, Camera, Heart } from 'lucide-react'
 
 export default function SobreMi() {
   return (
@@ -138,9 +138,14 @@ export default function SobreMi() {
             Si mi estilo y filosofía resuenan contigo, me encantaría ser parte de tu historia.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/reservar" className="btn-primary text-lg px-8 py-4">
+            <a
+              href="https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-lg px-8 py-4"
+            >
               Reservar Fecha
-            </Link>
+            </a>
             <Link to="/contacto" className="btn-secondary text-lg px-8 py-4">
               Contactar
             </Link>

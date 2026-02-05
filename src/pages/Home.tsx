@@ -205,10 +205,15 @@ export default function Home() {
               con al menos 4-6 meses de anticipación.
             </p>
           </div>
-          <Link to="/reservar" className="btn-primary bg-white text-gray-900 hover:bg-gray-100 inline-flex items-center space-x-2 text-lg px-8 py-4">
+          <a
+            href="https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary bg-white text-gray-900 hover:bg-gray-100 inline-flex items-center space-x-2 text-lg px-8 py-4"
+          >
             <span>Reservar Mi Fecha Ahora</span>
             <ArrowRight className="w-6 h-6" />
-          </Link>
+          </a>
         </div>
       </section>
 
@@ -223,9 +228,14 @@ export default function Home() {
             que celebrarás por siempre.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/reservar" className="btn-primary text-lg px-8 py-4">
+            <a
+              href="https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-lg px-8 py-4"
+            >
               Reservar Fecha
-            </Link>
+            </a>
             <Link to="/portafolio" className="btn-secondary text-lg px-8 py-4">
               Ver Portafolio Completo
             </Link>

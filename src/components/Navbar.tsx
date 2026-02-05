@@ -41,12 +41,14 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              to="/reservar"
+            <a
+              href="https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary text-sm"
             >
               Reservar Fecha
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -78,13 +80,15 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              to="/reservar"
+            <a
+              href="https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
               className="block w-full mt-4 btn-primary text-center"
             >
               Reservar Fecha
-            </Link>
+            </a>
           </div>
         </div>
       )}

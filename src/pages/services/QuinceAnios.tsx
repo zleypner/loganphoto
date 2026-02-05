@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import { ArrowRight, Check } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import Hero from '../../components/Hero'
 import GalleryGrid from '../../components/GalleryGrid'
 import PricingCard from '../../components/PricingCard'
@@ -96,13 +95,15 @@ export default function QuinceAnios() {
           <p className="text-xl text-gray-300 mb-8">
             Trabajemos juntos para crear el álbum perfecto de tu celebración.
           </p>
-          <Link
-            to="/reservar"
+          <a
+            href="https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha para 15 años"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary bg-white text-gray-900 hover:bg-gray-100 inline-flex items-center space-x-2 text-lg px-8 py-4"
           >
             <span>Reservar Fecha</span>
             <ArrowRight className="w-6 h-6" />
-          </Link>
+          </a>
         </div>
       </section>
     </div>

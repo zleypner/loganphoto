@@ -87,12 +87,14 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-            <Link
-              to="/reservar"
+            <a
+              href="https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-6 inline-block btn-secondary bg-white text-gray-900 hover:bg-gray-100"
             >
               Reservar Fecha
-            </Link>
+            </a>
           </div>
         </div>
 

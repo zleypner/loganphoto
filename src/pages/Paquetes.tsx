@@ -4,16 +4,6 @@ import PricingCard from '../components/PricingCard'
 import { services } from '../data/services'
 
 export default function Paquetes() {
-  // Combinar todos los paquetes de todos los servicios con sus nombres de servicio
-  const allPackages = services.flatMap(service =>
-    service.packages.map((pkg, index) => ({
-      ...pkg,
-      serviceName: service.title,
-      serviceSlug: service.slug,
-      isPopular: index === 1, // El segundo paquete es el popular por defecto
-    }))
-  )
-
   return (
     <div className="section-container bg-gray-50 min-h-screen">
       <div className="max-w-7xl mx-auto">
@@ -90,28 +80,28 @@ export default function Paquetes() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="border border-gray-200 rounded-lg p-6">
               <h3 className="font-bold mb-2">Horas Adicionales</h3>
-              <p className="text-gray-600 text-sm mb-4">$150/hora</p>
+              <p className="text-gray-600 text-sm mb-4">₡78,000/hora</p>
               <p className="text-sm text-gray-600">
                 Extiende la cobertura de tu evento cuando lo necesites.
               </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-6">
               <h3 className="font-bold mb-2">Álbum Físico Premium</h3>
-              <p className="text-gray-600 text-sm mb-4">Desde $300</p>
+              <p className="text-gray-600 text-sm mb-4">Desde ₡156,000</p>
               <p className="text-sm text-gray-600">
                 Álbum físico de lujo con diseño personalizado.
               </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-6">
               <h3 className="font-bold mb-2">Sesiones Adicionales</h3>
-              <p className="text-gray-600 text-sm mb-4">Desde $400</p>
+              <p className="text-gray-600 text-sm mb-4">Desde ₡208,000</p>
               <p className="text-sm text-gray-600">
                 Engagement, trash the dress, sesiones familiares.
               </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-6">
               <h3 className="font-bold mb-2">Video Highlights</h3>
-              <p className="text-gray-600 text-sm mb-4">Desde $500</p>
+              <p className="text-gray-600 text-sm mb-4">Desde ₡260,000</p>
               <p className="text-sm text-gray-600">
                 Video corto con lo mejor del evento.
               </p>

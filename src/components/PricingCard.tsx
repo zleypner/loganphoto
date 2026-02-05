@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { Check } from 'lucide-react'
 
 interface PricingCardProps {
@@ -57,8 +56,10 @@ export default function PricingCard({
         ))}
       </ul>
 
-      <Link
-        to="/reservar"
+      <a
+        href="https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha"
+        target="_blank"
+        rel="noopener noreferrer"
         className={`block w-full text-center py-3 rounded-lg font-semibold transition-colors ${
           popular
             ? 'bg-white text-gray-900 hover:bg-gray-100'
@@ -66,7 +67,7 @@ export default function PricingCard({
         }`}
       >
         {ctaText}
-      </Link>
+      </a>
     </div>
   )
 }

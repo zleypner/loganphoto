@@ -17,7 +17,7 @@ export default function Hero({
   subtitle,
   image,
   ctaText = 'Reservar Fecha',
-  ctaLink = '/reservar',
+  ctaLink = 'https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha',
   showSecondaryCta = true,
   secondaryCtaText = 'Ver Portafolio',
   secondaryCtaLink = '/portafolio',
@@ -49,13 +49,25 @@ export default function Hero({
           </p>
         )}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Link
-            to={ctaLink}
-            className="btn-primary bg-white text-gray-900 hover:bg-gray-100 inline-flex items-center space-x-2 group"
-          >
-            <span>{ctaText}</span>
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </Link>
+          {ctaLink.startsWith('http') ? (
+            <a
+              href={ctaLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary bg-white text-gray-900 hover:bg-gray-100 inline-flex items-center space-x-2 group"
+            >
+              <span>{ctaText}</span>
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </a>
+          ) : (
+            <Link
+              to={ctaLink}
+              className="btn-primary bg-white text-gray-900 hover:bg-gray-100 inline-flex items-center space-x-2 group"
+            >
+              <span>{ctaText}</span>
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </Link>
+          )}
           {showSecondaryCta && (
             <Link
               to={secondaryCtaLink}

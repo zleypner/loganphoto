@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 import Hero from '../../components/Hero'
 import GalleryGrid from '../../components/GalleryGrid'
@@ -83,13 +82,15 @@ export default function Fiestas() {
       <section className="section-container bg-gradient-to-br from-gray-900 to-gray-800 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="heading-2 mb-6 text-white">Celebremos Juntos</h2>
-          <Link
-            to="/reservar"
+          <a
+            href="https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha para una fiesta"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary bg-white text-gray-900 hover:bg-gray-100 inline-flex items-center space-x-2 text-lg px-8 py-4"
           >
             <span>Reservar Fecha</span>
             <ArrowRight className="w-6 h-6" />
-          </Link>
+          </a>
         </div>
       </section>
     </div>

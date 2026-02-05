@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { ArrowRight, Check } from 'lucide-react'
 import Hero from '../../components/Hero'
 import GalleryGrid from '../../components/GalleryGrid'
@@ -154,13 +153,15 @@ export default function Bodas() {
           <p className="text-xl text-gray-300 mb-8">
             Tu boda merece la mejor fotografía. Hablemos sobre cómo puedo hacer tu día aún más especial.
           </p>
-          <Link
-            to="/reservar"
+          <a
+            href="https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha para mi boda"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary bg-white text-gray-900 hover:bg-gray-100 inline-flex items-center space-x-2 text-lg px-8 py-4"
           >
             <span>Reservar Fecha para Mi Boda</span>
             <ArrowRight className="w-6 h-6" />
-          </Link>
+          </a>
         </div>
       </section>
     </div>

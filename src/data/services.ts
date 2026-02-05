@@ -36,7 +36,7 @@ export const services: Service[] = [
     packages: [
       {
         name: 'Esencial',
-        price: '$1,500',
+        price: '₡780,000',
         features: [
           '6 horas de cobertura',
           'Hasta 400 fotos editadas',
@@ -47,7 +47,7 @@ export const services: Service[] = [
       },
       {
         name: 'Premium',
-        price: '$2,500',
+        price: '₡1,300,000',
         features: [
           '10 horas de cobertura',
           'Hasta 600 fotos editadas',
@@ -60,7 +60,7 @@ export const services: Service[] = [
       },
       {
         name: 'Editorial',
-        price: '$4,000',
+        price: '₡2,080,000',
         features: [
           'Cobertura completa (ceremonia + recepción)',
           'Hasta 800 fotos editadas profesionalmente',
@@ -128,7 +128,7 @@ export const services: Service[] = [
     packages: [
       {
         name: 'Clásico',
-        price: '$800',
+        price: '₡416,000',
         features: [
           '4 horas de cobertura',
           'Hasta 250 fotos editadas',
@@ -139,7 +139,7 @@ export const services: Service[] = [
       },
       {
         name: 'Premium',
-        price: '$1,200',
+        price: '₡624,000',
         features: [
           '6 horas de cobertura',
           'Hasta 350 fotos editadas',
@@ -151,7 +151,7 @@ export const services: Service[] = [
       },
       {
         name: 'Deluxe',
-        price: '$1,800',
+        price: '₡936,000',
         features: [
           '8 horas de cobertura completa',
           'Hasta 500 fotos editadas',
@@ -213,7 +213,7 @@ export const services: Service[] = [
     packages: [
       {
         name: 'Básico',
-        price: '$400',
+        price: '₡208,000',
         features: [
           '3 horas de cobertura',
           'Hasta 150 fotos editadas',
@@ -223,7 +223,7 @@ export const services: Service[] = [
       },
       {
         name: 'Completo',
-        price: '$600',
+        price: '₡312,000',
         features: [
           '5 horas de cobertura',
           'Hasta 250 fotos editadas',
@@ -234,7 +234,7 @@ export const services: Service[] = [
       },
       {
         name: 'Premium',
-        price: '$900',
+        price: '₡468,000',
         features: [
           '8 horas de cobertura',
           'Hasta 400 fotos editadas',
@@ -290,7 +290,7 @@ export const services: Service[] = [
     packages: [
       {
         name: 'Esencial',
-        price: '$500',
+        price: '₡260,000',
         features: [
           '4 horas de cobertura',
           'Hasta 200 fotos editadas',
@@ -300,7 +300,7 @@ export const services: Service[] = [
       },
       {
         name: 'Profesional',
-        price: '$800',
+        price: '₡416,000',
         features: [
           '6 horas de cobertura',
           'Hasta 350 fotos editadas',
@@ -311,7 +311,7 @@ export const services: Service[] = [
       },
       {
         name: 'Empresarial',
-        price: '$1,200',
+        price: '₡624,000',
         features: [
           '8 horas de cobertura',
           'Hasta 500 fotos editadas',
@@ -372,7 +372,7 @@ export const services: Service[] = [
     packages: [
       {
         name: 'Portafolio Básico',
-        price: '$600',
+        price: '₡312,000',
         features: [
           '3 horas de sesión',
           'Hasta 30 fotos editadas profesionalmente',
@@ -383,7 +383,7 @@ export const services: Service[] = [
       },
       {
         name: 'Portafolio Premium',
-        price: '$1,000',
+        price: '₡520,000',
         features: [
           '5 horas de sesión',
           'Hasta 50 fotos editadas profesionalmente',
@@ -395,7 +395,7 @@ export const services: Service[] = [
       },
       {
         name: 'Editorial / Pasarela',
-        price: '$1,500',
+        price: '₡780,000',
         features: [
           'Cobertura completa de evento',
           'Hasta 100 fotos editadas profesionalmente',
