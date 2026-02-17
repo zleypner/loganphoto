@@ -1,4 +1,4 @@
-# Portafolio de Fotografía Profesional
+# Logan Photography - Portafolio Profesional
 
 Sitio web completo para un fotógrafo profesional, desarrollado con React + TypeScript + Tailwind CSS. Incluye sistema de reservas, portafolio visual, múltiples servicios y contenido 100% en español.
 

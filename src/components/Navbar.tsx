@@ -18,12 +18,12 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
+    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-royal-blue-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           <Link to="/" className="flex items-center space-x-2 group">
-            <Camera className="w-6 h-6 md:w-8 md:h-8 text-gray-900 group-hover:text-gray-700 transition-colors" />
-            <span className="text-lg md:text-xl font-bold text-gray-900">Fotografía</span>
+            <Camera className="w-6 h-6 md:w-8 md:h-8 text-royal-blue-700 group-hover:text-purple-700 transition-colors" />
+            <span className="text-lg md:text-xl font-bold bg-gradient-to-r from-royal-blue-700 to-purple-700 bg-clip-text text-transparent">Logan Photography</span>
           </Link>
 
           {/* Desktop Menu */}
@@ -34,15 +34,15 @@ export default function Navbar() {
                 to={link.path}
                 className={`text-sm font-medium transition-colors ${
                   isActive(link.path)
-                    ? 'text-gray-900 border-b-2 border-gray-900'
-                    : 'text-gray-600 hover:text-gray-900'
+                    ? 'text-royal-blue-700 border-b-2 border-purple-700'
+                    : 'text-royal-blue-600 hover:text-purple-700'
                 }`}
               >
                 {link.label}
               </Link>
             ))}
             <a
-              href="https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha"
+              href="https://wa.me/50660140366?text=Hola, me gustaría reservar una fecha"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm"
@@ -54,7 +54,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 text-gray-900"
+            className="md:hidden p-2 text-royal-blue-700"
             aria-label="Toggle menu"
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -64,7 +64,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden border-t border-gray-200 bg-white">
+        <div className="md:hidden border-t border-royal-blue-200 bg-white">
           <div className="px-4 pt-2 pb-4 space-y-2">
             {navLinks.map((link) => (
               <Link
@@ -73,15 +73,15 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
                 className={`block px-3 py-2 rounded-lg text-base font-medium ${
                   isActive(link.path)
-                    ? 'bg-gray-100 text-gray-900'
-                    : 'text-gray-600 hover:bg-gray-50'
+                    ? 'bg-purple-100 text-royal-blue-700'
+                    : 'text-royal-blue-600 hover:bg-purple-50'
                 }`}
               >
                 {link.label}
               </Link>
             ))}
             <a
-              href="https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha"
+              href="https://wa.me/50660140366?text=Hola, me gustaría reservar una fecha"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
