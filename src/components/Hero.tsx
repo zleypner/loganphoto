@@ -17,7 +17,7 @@ export default function Hero({
   subtitle,
   image,
   ctaText = 'Reservar Fecha',
-  ctaLink = 'https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha',
+  ctaLink = 'https://wa.me/50660140366?text=Hola, me gustaría reservar una fecha',
   showSecondaryCta = true,
   secondaryCtaText = 'Ver Portafolio',
   secondaryCtaLink = '/portafolio',

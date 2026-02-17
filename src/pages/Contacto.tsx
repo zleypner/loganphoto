@@ -66,8 +66,8 @@ export default function Contacto() {
                 <h3 className="text-xl font-bold">Teléfono</h3>
               </div>
               <p className="text-gray-700 mb-2">WhatsApp / Llamadas</p>
-              <a href="tel:+50600000000" className="text-gray-900 font-medium hover:text-gray-700">
-                +506 0000-0000
+              <a href="tel:+50660140366" className="text-gray-900 font-medium hover:text-gray-700">
+                +506 6014-0366
               </a>
             </div>
 
@@ -77,8 +77,8 @@ export default function Contacto() {
                 <h3 className="text-xl font-bold">Email</h3>
               </div>
               <p className="text-gray-700 mb-2">Correo electrónico</p>
-              <a href="mailto:contacto@fotografia.com" className="text-gray-900 font-medium hover:text-gray-700">
-                contacto@fotografia.com
+              <a href="mailto:eyalllogan@gmail.com" className="text-gray-900 font-medium hover:text-gray-700">
+                eyalllogan@gmail.com
               </a>
             </div>
 
@@ -112,7 +112,7 @@ export default function Contacto() {
                 Escríbeme directamente para una respuesta más rápida.
               </p>
               <a
-                href="https://wa.me/50600000000"
+                href="https://wa.me/50660140366"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors inline-flex items-center space-x-2"
@@ -168,7 +168,7 @@ export default function Contacto() {
                       value={formData.phone}
                       onChange={(e) => handleChange('phone', e.target.value)}
                       className="w-full px-4 py-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-900"
-                      placeholder="+506 0000-0000"
+                      placeholder="+506 6014-0366"
                     />
                   </div>
                 </div>

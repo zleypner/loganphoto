@@ -181,7 +181,7 @@ export default function BookingForm({
             className={`w-full px-4 py-3 rounded-lg border-2 ${
               errors.phone ? 'border-red-500' : 'border-gray-300'
             } focus:outline-none focus:ring-2 focus:ring-gray-900`}
-            placeholder="+506 0000-0000"
+            placeholder="+506 6014-0366"
           />
           {errors.phone && <p className="mt-1 text-sm text-red-500">{errors.phone}</p>}
         </div>
