@@ -22,7 +22,7 @@ export default function ModelajePasarela() {
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
               {service.description}
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-royal-blue-600 leading-relaxed">
               Especializado en fotografía de moda y portafolios profesionales. Trabajo 
               con modelos, diseñadores y marcas para crear imágenes impactantes que destacan 
               la elegancia y el estilo.
@@ -31,7 +31,7 @@ export default function ModelajePasarela() {
         </div>
       </section>
 
-      <section className="section-container bg-gray-50">
+      <section className="section-container bg-purple-50">
         <div className="text-center mb-12">
           <h2 className="heading-2 mb-4">Galería de Moda</h2>
         </div>
@@ -45,17 +45,17 @@ export default function ModelajePasarela() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {service.process.map((step) => (
             <div key={step.step} className="text-center">
-              <div className="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-royal-blue-700 to-purple-700 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-white">{step.step}</span>
               </div>
               <h3 className="text-xl font-bold mb-2">{step.title}</h3>
-              <p className="text-gray-600">{step.description}</p>
+              <p className="text-royal-blue-600">{step.description}</p>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="section-container bg-gray-900 text-white">
+      <section className="section-container bg-gradient-to-r from-royal-blue-700 to-purple-700 text-white">
         <div className="text-center mb-12">
           <h2 className="heading-2 mb-4 text-white">Paquetes de Moda</h2>
         </div>
@@ -80,14 +80,14 @@ export default function ModelajePasarela() {
         </div>
       </section>
 
-      <section className="section-container bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+      <section className="section-container bg-gradient-to-br from-royal-blue-900 via-royal-blue-800 to-purple-900 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="heading-2 mb-6 text-white">Creemos Algo Increíble</h2>
           <a
-            href="https://wa.me/50600000000?text=Hola, me gustaría reservar una sesión de modelaje"
+            href="https://wa.me/50660140366?text=Hola, me gustaría reservar una sesión de modelaje"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary bg-white text-gray-900 hover:bg-gray-100 inline-flex items-center space-x-2 text-lg px-8 py-4"
+            className="btn-primary bg-white text-royal-blue-700 hover:bg-purple-50 inline-flex items-center space-x-2 text-lg px-8 py-4"
           >
             <span>Reservar Sesión</span>
             <ArrowRight className="w-6 h-6" />

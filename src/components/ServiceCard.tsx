@@ -23,7 +23,7 @@ export default function ServiceCard({
         featured ? 'md:col-span-2 md:row-span-2' : ''
       }`}
     >
-      <div className="relative aspect-[4/3] md:aspect-square overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300">
+      <div className="relative aspect-[4/3] md:aspect-square overflow-hidden bg-gradient-to-br from-royal-blue-200 to-purple-200">
         {image ? (
           <img
             src={image}
@@ -31,8 +31,8 @@ export default function ServiceCard({
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
           />
         ) : (
-          <div className="w-full h-full bg-gradient-to-br from-gray-300 to-gray-400 flex items-center justify-center">
-            <span className="text-gray-500 text-sm">Foto de {title}</span>
+          <div className="w-full h-full bg-gradient-to-br from-royal-blue-300 to-purple-300 flex items-center justify-center">
+            <span className="text-royal-blue-600 text-sm">Foto de {title}</span>
           </div>
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />

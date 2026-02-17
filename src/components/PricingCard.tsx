@@ -21,20 +21,20 @@ export default function PricingCard({
     <div
       className={`relative rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all ${
         popular
-          ? 'bg-gray-900 text-white transform scale-105 border-4 border-gray-900'
+          ? 'bg-gradient-to-br from-royal-blue-700 to-purple-700 text-white transform scale-105 border-4 border-purple-500'
           : 'bg-white'
       }`}
     >
       {popular && (
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <span className="bg-white text-gray-900 px-4 py-1 rounded-full text-sm font-semibold">
+          <span className="bg-white text-royal-blue-700 px-4 py-1 rounded-full text-sm font-semibold">
             Más Popular
           </span>
         </div>
       )}
 
       <h3 className="text-2xl font-bold mb-2">{name}</h3>
-      <p className={`mb-6 ${popular ? 'text-gray-300' : 'text-gray-600'}`}>
+      <p className={`mb-6 ${popular ? 'text-purple-100' : 'text-royal-blue-600'}`}>
         {description}
       </p>
       <div className="mb-6">
@@ -46,10 +46,10 @@ export default function PricingCard({
           <li key={index} className="flex items-start">
             <Check
               className={`w-5 h-5 mr-3 flex-shrink-0 mt-0.5 ${
-                popular ? 'text-white' : 'text-gray-900'
+                popular ? 'text-white' : 'text-royal-blue-700'
               }`}
             />
-            <span className={popular ? 'text-gray-100' : 'text-gray-700'}>
+            <span className={popular ? 'text-purple-50' : 'text-royal-blue-700'}>
               {feature}
             </span>
           </li>
@@ -57,13 +57,13 @@ export default function PricingCard({
       </ul>
 
       <a
-        href="https://wa.me/50600000000?text=Hola, me gustaría reservar una fecha"
+        href="https://wa.me/50660140366?text=Hola, me gustaría reservar una fecha"
         target="_blank"
         rel="noopener noreferrer"
         className={`block w-full text-center py-3 rounded-lg font-semibold transition-colors ${
           popular
-            ? 'bg-white text-gray-900 hover:bg-gray-100'
-            : 'bg-gray-900 text-white hover:bg-gray-800'
+            ? 'bg-white text-royal-blue-700 hover:bg-purple-50'
+            : 'bg-gradient-to-r from-royal-blue-700 to-purple-700 text-white hover:from-royal-blue-800 hover:to-purple-800'
         }`}
       >
         {ctaText}

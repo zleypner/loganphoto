@@ -4,17 +4,17 @@
 
 @layer base {
   body {
-    @apply text-gray-900 antialiased;
+    @apply text-royal-blue-900 antialiased;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-gray-900 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors duration-200;
+    @apply bg-gradient-to-r from-royal-blue-700 to-purple-700 text-white px-6 py-3 rounded-lg font-medium hover:from-royal-blue-800 hover:to-purple-800 transition-all duration-200 shadow-lg hover:shadow-xl;
   }
   
   .btn-secondary {
-    @apply bg-white text-gray-900 px-6 py-3 rounded-lg font-medium border-2 border-gray-900 hover:bg-gray-50 transition-colors duration-200;
+    @apply bg-white text-royal-blue-700 px-6 py-3 rounded-lg font-medium border-2 border-royal-blue-700 hover:bg-royal-blue-50 transition-colors duration-200;
   }
 
   .section-container {
