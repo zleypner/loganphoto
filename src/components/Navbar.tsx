@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, X, Camera } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
+import logo from '../assets/Logos Logan/todos/Transparente negro sin slogan.png'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -22,7 +23,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           <Link to="/" className="flex items-center space-x-2 group">
-            <Camera className="w-6 h-6 md:w-8 md:h-8 text-royal-blue-700 group-hover:text-purple-700 transition-colors" />
+            <img 
+              src={logo} 
+              alt="Logan Photography" 
+              className="w-8 h-8 md:w-10 md:h-10 object-contain"
+            />
             <span className="text-lg md:text-xl font-bold bg-gradient-to-r from-royal-blue-700 to-purple-700 bg-clip-text text-transparent">Logan Photography</span>
           </Link>
 
