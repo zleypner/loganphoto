@@ -10,10 +10,17 @@ import { testimonials } from '../data/testimonials'
 export default function Home() {
   const featuredServices = services.slice(0, 5)
   const featuredTestimonials = testimonials.slice(0, 3)
-  const featuredGallery = Array.from({ length: 9 }, (_, i) => ({
-    id: `featured-${i + 1}`,
-    alt: `Foto destacada ${i + 1}`,
-  }))
+  const featuredGallery = [
+    { id: 'featured-1', src: '/src/assets/MENUS/Bodas/ANT_5208-Enhanced-NR-2.jpg', alt: 'Foto de boda destacada' },
+    { id: 'featured-2', src: '/src/assets/MENUS/Quince Años/MFS_7827-Enhanced-NR.jpg', alt: 'Foto de 15 años destacada' },
+    { id: 'featured-3', src: '/src/assets/MENUS/Editorial/DSC_5327-Enhanced-NR.jpg', alt: 'Foto editorial destacada' },
+    { id: 'featured-4', src: '/src/assets/MENUS/Bodas/_LP33034-Enhanced-NR.jpg', alt: 'Foto de boda destacada' },
+    { id: 'featured-5', src: '/src/assets/MENUS/Empresarial /DSC_6773-Enhanced-NR-2.jpg', alt: 'Foto corporativa destacada' },
+    { id: 'featured-6', src: '/src/assets/MENUS/Chicos/MFS_5193-Enhanced-NR.jpg', alt: 'Foto de fiesta destacada' },
+    { id: 'featured-7', src: '/src/assets/MENUS/Quince Años/_LP37311-Enhanced-NR-2.jpg', alt: 'Foto de 15 años destacada' },
+    { id: 'featured-8', src: '/src/assets/MENUS/Editorial/_LP30978-Enhanced-NR.jpg', alt: 'Foto editorial destacada' },
+    { id: 'featured-9', src: '/src/assets/MENUS/Bodas/MFS_6385-Enhanced-NR.jpg', alt: 'Foto de boda destacada' },
+  ]
 
   return (
     <div>
