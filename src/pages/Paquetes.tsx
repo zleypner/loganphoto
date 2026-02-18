@@ -5,11 +5,11 @@ import { services } from '../data/services'
 
 export default function Paquetes() {
   return (
-    <div className="section-container bg-purple-50 min-h-screen">
+    <div className="section-container bg-primary-50 min-h-screen">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="heading-1 mb-4">Paquetes y Precios</h1>
-          <p className="text-xl text-royal-blue-600 max-w-3xl mx-auto">
+          <p className="text-xl text-primary-600 max-w-3xl mx-auto">
             Opciones diseñadas para diferentes necesidades y presupuestos. 
             Cada paquete incluye fotografía profesional y edición de alta calidad.
           </p>
@@ -22,7 +22,7 @@ export default function Paquetes() {
               <h2 className="heading-2 mb-2">{service.title}</h2>
               <Link
                 to={`/${service.slug}`}
-                className="text-royal-blue-600 hover:text-royal-blue-700 inline-flex items-center space-x-1"
+                className="text-primary-600 hover:text-primary-700 inline-flex items-center space-x-1"
               >
                 <span>Ver detalles completos del servicio</span>
                 <ArrowRight className="w-4 h-4" />
@@ -49,7 +49,7 @@ export default function Paquetes() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <h3 className="text-xl font-bold mb-4">Fotografía Profesional</h3>
-              <ul className="text-left space-y-2 text-royal-blue-600">
+              <ul className="text-left space-y-2 text-primary-600">
                 <li>• Equipamiento de última generación</li>
                 <li>• Experiencia y técnica probada</li>
                 <li>• Enfoque artístico y profesional</li>
@@ -57,7 +57,7 @@ export default function Paquetes() {
             </div>
             <div className="text-center">
               <h3 className="text-xl font-bold mb-4">Edición de Calidad</h3>
-              <ul className="text-left space-y-2 text-royal-blue-600">
+              <ul className="text-left space-y-2 text-primary-600">
                 <li>• Corrección de color profesional</li>
                 <li>• Retoque y optimización</li>
                 <li>• Estilo consistente y elegante</li>
@@ -65,7 +65,7 @@ export default function Paquetes() {
             </div>
             <div className="text-center">
               <h3 className="text-xl font-bold mb-4">Entrega Premium</h3>
-              <ul className="text-left space-y-2 text-royal-blue-600">
+              <ul className="text-left space-y-2 text-primary-600">
                 <li>• Álbum digital en alta resolución</li>
                 <li>• Formato listo para imprimir</li>
                 <li>• Acceso permanente online</li>
@@ -80,29 +80,29 @@ export default function Paquetes() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="border border-gray-200 rounded-lg p-6">
               <h3 className="font-bold mb-2">Horas Adicionales</h3>
-              <p className="text-royal-blue-600 text-sm mb-4">₡78,000/hora</p>
-              <p className="text-sm text-royal-blue-600">
+              <p className="text-primary-600 text-sm mb-4">₡78,000/hora</p>
+              <p className="text-sm text-primary-600">
                 Extiende la cobertura de tu evento cuando lo necesites.
               </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-6">
               <h3 className="font-bold mb-2">Álbum Físico Premium</h3>
-              <p className="text-royal-blue-600 text-sm mb-4">Desde ₡156,000</p>
-              <p className="text-sm text-royal-blue-600">
+              <p className="text-primary-600 text-sm mb-4">Desde ₡156,000</p>
+              <p className="text-sm text-primary-600">
                 Álbum físico de lujo con diseño personalizado.
               </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-6">
               <h3 className="font-bold mb-2">Sesiones Adicionales</h3>
-              <p className="text-royal-blue-600 text-sm mb-4">Desde ₡208,000</p>
-              <p className="text-sm text-royal-blue-600">
+              <p className="text-primary-600 text-sm mb-4">Desde ₡208,000</p>
+              <p className="text-sm text-primary-600">
                 Engagement, trash the dress, sesiones familiares.
               </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-6">
               <h3 className="font-bold mb-2">Video Highlights</h3>
-              <p className="text-royal-blue-600 text-sm mb-4">Desde ₡260,000</p>
-              <p className="text-sm text-royal-blue-600">
+              <p className="text-primary-600 text-sm mb-4">Desde ₡260,000</p>
+              <p className="text-sm text-primary-600">
                 Video corto con lo mejor del evento.
               </p>
             </div>
@@ -112,7 +112,7 @@ export default function Paquetes() {
         {/* CTA */}
         <div className="mt-16 text-center bg-gradient-to-br from-gray-900 to-gray-800 text-white rounded-2xl p-12">
           <h2 className="heading-2 mb-4 text-white">¿Necesitas un Paquete Personalizado?</h2>
-          <p className="text-xl text-purple-100 mb-8">
+          <p className="text-xl text-primary-100 mb-8">
             Trabajemos juntos para crear un paquete que se ajuste perfectamente a tus necesidades.
           </p>
           <Link
