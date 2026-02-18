@@ -29,6 +29,7 @@ export const services: Service[] = [
     slug: 'bodas',
     description: 'Capturo la magia de tu día más especial con un enfoque artístico y emocional. Cada boda es única, y mi objetivo es contar tu historia a través de imágenes que perdurarán para siempre.',
     shortDescription: 'El día más importante de tu vida, capturado con arte y emoción.',
+    image: '/src/assets/MENUS/Bodas/ANT_5208-Enhanced-NR-2.jpg',
     gallery: [
       { id: 'boda-1', src: '/src/assets/MENUS/Bodas/ANT_1422-Enhanced-NR.jpg', alt: 'Foto de boda 1' },
       { id: 'boda-2', src: '/src/assets/MENUS/Bodas/ANT_5208-Enhanced-NR-2.jpg', alt: 'Foto de boda 2' },
@@ -139,6 +140,7 @@ export const services: Service[] = [
     slug: '15-anios',
     description: 'Celebra esta etapa única con una sesión que refleja tu personalidad y estilo. Capturo la elegancia, la emoción y la juventud de este momento especial.',
     shortDescription: 'Celebra tus 15 años con elegancia y estilo único.',
+    image: '/src/assets/MENUS/Quince Años/MFS_7827-Enhanced-NR.jpg',
     gallery: [
       { id: 'quince-1', src: '/src/assets/MENUS/Quince Años/MFS_2468-Enhanced-NR (1).jpg', alt: 'Foto de 15 años 1' },
       { id: 'quince-2', src: '/src/assets/MENUS/Quince Años/MFS_2679-Enhanced-NR-2.jpg', alt: 'Foto de 15 años 2' },
@@ -236,6 +238,7 @@ export const services: Service[] = [
     slug: 'fiestas',
     description: 'Desde cumpleaños hasta graduaciones, capturo la energía y alegría de tus celebraciones. Fotos espontáneas y naturales que muestran la verdadera esencia del momento.',
     shortDescription: 'Celebraciones llenas de vida y momentos espontáneos.',
+    image: '/src/assets/MENUS/Chicos/MFS_5193-Enhanced-NR.jpg',
     gallery: [
       { id: 'fiesta-1', src: '/src/assets/MENUS/Chicos/MFS_0872-Enhanced-NR.jpg', alt: 'Foto de fiesta 1' },
       { id: 'fiesta-2', src: '/src/assets/MENUS/Chicos/MFS_5193-Enhanced-NR.jpg', alt: 'Foto de fiesta 2' },
@@ -321,6 +324,7 @@ export const services: Service[] = [
     slug: 'corporativo',
     description: 'Profesionalismo y calidad para tus eventos empresariales. Conferencias, lanzamientos, team building, y más. Capturo la esencia de tu marca y la dinámica de tu equipo.',
     shortDescription: 'Eventos empresariales con calidad profesional y servicio impecable.',
+    image: '/src/assets/MENUS/Empresarial /DSC_6773-Enhanced-NR-2.jpg',
     gallery: [
       { id: 'corp-1', src: '/src/assets/MENUS/Empresarial /DSC_3956.jpg', alt: 'Foto corporativa 1' },
       { id: 'corp-2', src: '/src/assets/MENUS/Empresarial /DSC_4122.jpg', alt: 'Foto corporativa 2' },
@@ -415,6 +419,7 @@ export const services: Service[] = [
     slug: 'modelaje-pasarela',
     description: 'Fotografía de moda y pasarela con enfoque editorial. Portafolios profesionales, lookbooks, eventos de moda y sesiones creativas que destacan la elegancia y el estilo.',
     shortDescription: 'Fotografía editorial de moda y portafolios profesionales.',
+    image: '/src/assets/MENUS/Editorial/DSC_5327-Enhanced-NR.jpg',
     gallery: [
       { id: 'moda-1', src: '/src/assets/MENUS/Editorial/1624416355114.jpg', alt: 'Foto de moda 1' },
       { id: 'moda-2', src: '/src/assets/MENUS/Editorial/1624581969474.jpg', alt: 'Foto de moda 2' },
