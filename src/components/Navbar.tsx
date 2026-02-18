@@ -19,16 +19,15 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-royal-blue-200">
+    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 md:h-20">
-          <Link to="/" className="flex items-center space-x-2 group">
-            <img 
-              src={logo} 
-              alt="Logan Photography" 
-              className="w-8 h-8 md:w-10 md:h-10 object-contain"
+        <div className="flex justify-between items-center h-24 md:h-28">
+          <Link to="/" className="flex items-center group">
+            <img
+              src={logo}
+              alt="Logan Photography"
+              className="h-20 md:h-24 w-auto object-contain"
             />
-            <span className="text-lg md:text-xl font-bold bg-gradient-to-r from-royal-blue-700 to-purple-700 bg-clip-text text-transparent">Logan Photography</span>
           </Link>
 
           {/* Desktop Menu */}
@@ -39,8 +38,8 @@ export default function Navbar() {
                 to={link.path}
                 className={`text-sm font-medium transition-colors ${
                   isActive(link.path)
-                    ? 'text-royal-blue-700 border-b-2 border-purple-700'
-                    : 'text-royal-blue-600 hover:text-purple-700'
+                    ? 'text-primary-500 border-b-2 border-primary-500'
+                    : 'text-foreground hover:text-primary-500'
                 }`}
               >
                 {link.label}
@@ -59,7 +58,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 text-royal-blue-700"
+            className="md:hidden p-2 text-primary-500"
             aria-label="Toggle menu"
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -69,7 +68,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden border-t border-royal-blue-200 bg-white">
+        <div className="md:hidden border-t border-gray-200 bg-white">
           <div className="px-4 pt-2 pb-4 space-y-2">
             {navLinks.map((link) => (
               <Link
@@ -78,8 +77,8 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
                 className={`block px-3 py-2 rounded-lg text-base font-medium ${
                   isActive(link.path)
-                    ? 'bg-purple-100 text-royal-blue-700'
-                    : 'text-royal-blue-600 hover:bg-purple-50'
+                    ? 'bg-primary-50 text-primary-500'
+                    : 'text-foreground hover:bg-primary-50'
                 }`}
               >
                 {link.label}
