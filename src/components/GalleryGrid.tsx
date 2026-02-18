@@ -43,6 +43,8 @@ export default function GalleryGrid({ images, columns = 3 }: GalleryGridProps) {
               <img
                 src={image.src}
                 alt={image.alt}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
               />
             ) : (
