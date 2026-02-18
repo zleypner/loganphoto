@@ -22,7 +22,7 @@ export default function Corporativo() {
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
               {service.description}
             </p>
-            <p className="text-lg text-royal-blue-600 leading-relaxed">
+            <p className="text-lg text-primary-600 leading-relaxed">
               Entiendo que cada empresa tiene una identidad única. Mi trabajo es capturar 
               esa esencia mientras documenta profesionalmente tus eventos, conferencias, 
               lanzamientos y momentos corporativos importantes.
@@ -31,7 +31,7 @@ export default function Corporativo() {
         </div>
       </section>
 
-      <section className="section-container bg-purple-50">
+      <section className="section-container bg-primary-50">
         <div className="text-center mb-12">
           <h2 className="heading-2 mb-4">Galería Corporativa</h2>
         </div>
@@ -45,17 +45,17 @@ export default function Corporativo() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {service.process.map((step) => (
             <div key={step.step} className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-royal-blue-700 to-purple-700 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-primary-700 to-primary-700 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-white">{step.step}</span>
               </div>
               <h3 className="text-xl font-bold mb-2">{step.title}</h3>
-              <p className="text-royal-blue-600">{step.description}</p>
+              <p className="text-primary-600">{step.description}</p>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="section-container bg-gradient-to-r from-royal-blue-700 to-purple-700 text-white">
+      <section className="section-container bg-gradient-to-r from-primary-700 to-primary-700 text-white">
         <div className="text-center mb-12">
           <h2 className="heading-2 mb-4 text-white">Paquetes Corporativos</h2>
         </div>
@@ -80,14 +80,14 @@ export default function Corporativo() {
         </div>
       </section>
 
-      <section className="section-container bg-gradient-to-br from-royal-blue-900 via-royal-blue-800 to-purple-900 text-white">
+      <section className="section-container bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="heading-2 mb-6 text-white">Hablemos de tu Evento</h2>
           <a
             href="https://wa.me/50660140366?text=Hola, me gustaría solicitar una cotización para un evento corporativo"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary bg-white text-royal-blue-700 hover:bg-purple-50 inline-flex items-center space-x-2 text-lg px-8 py-4"
+            className="btn-primary bg-white text-primary-700 hover:bg-primary-50 inline-flex items-center space-x-2 text-lg px-8 py-4"
           >
             <span>Solicitar Cotización</span>
             <ArrowRight className="w-6 h-6" />
