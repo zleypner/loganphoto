@@ -37,13 +37,13 @@ export default function GalleryGrid({ images, columns = 3 }: GalleryGridProps) {
           <div
             key={image.id}
             onClick={() => openLightbox(index)}
-            className="relative aspect-square overflow-hidden rounded-lg cursor-pointer group bg-gradient-to-br from-gray-200 to-gray-300"
+            className="relative aspect-[3/4] overflow-hidden rounded-2xl cursor-pointer group bg-gradient-to-br from-gray-200 to-gray-300"
           >
             {image.src ? (
               <img
                 src={image.src}
                 alt={image.alt}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
               />
             ) : (
               <div className="w-full h-full flex items-center justify-center">
