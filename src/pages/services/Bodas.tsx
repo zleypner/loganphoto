@@ -20,10 +20,10 @@ export default function Bodas() {
         <div className="max-w-4xl mx-auto">
           <div className="prose prose-lg mx-auto text-center mb-12">
             <h2 className="heading-2 mb-6">Tu Historia de Amor, Contada en Imágenes</h2>
-            <p className="text-xl text-royal-blue-700 leading-relaxed mb-6">
+            <p className="text-xl text-primary-700 leading-relaxed mb-6">
               {service.description}
             </p>
-            <p className="text-lg text-royal-blue-600 leading-relaxed">
+            <p className="text-lg text-primary-600 leading-relaxed">
               Cada boda tiene su propia magia: los nervios de la mañana, la emoción del "sí quiero", 
               las lágrimas de felicidad, las risas en la pista de baile. Mi objetivo es capturar 
               todos estos momentos de manera discreta y artística, creando un álbum que contarás 
@@ -34,10 +34,10 @@ export default function Bodas() {
       </section>
 
       {/* Galería */}
-      <section className="section-container bg-purple-50">
+      <section className="section-container bg-primary-50">
         <div className="text-center mb-12">
           <h2 className="heading-2 mb-4">Momentos Capturados</h2>
-          <p className="text-xl text-royal-blue-600">
+          <p className="text-xl text-primary-600">
             Una muestra del arte y la emoción que traigo a cada boda.
           </p>
         </div>
@@ -48,28 +48,28 @@ export default function Bodas() {
       <section className="section-container bg-white">
         <div className="text-center mb-12">
           <h2 className="heading-2 mb-4">Cómo Trabajo en tu Boda</h2>
-          <p className="text-xl text-royal-blue-600">
+          <p className="text-xl text-primary-600">
             Un proceso probado que asegura que cada momento importante sea capturado.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {service.process.map((step) => (
             <div key={step.step} className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-royal-blue-700 to-purple-700 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-primary-700 to-primary-700 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-white">{step.step}</span>
               </div>
               <h3 className="text-xl font-bold mb-2">{step.title}</h3>
-              <p className="text-royal-blue-600">{step.description}</p>
+              <p className="text-primary-600">{step.description}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* Paquetes */}
-      <section className="section-container bg-gradient-to-br from-royal-blue-900 via-royal-blue-800 to-purple-900 text-white">
+      <section className="section-container bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 text-white">
         <div className="text-center mb-12">
           <h2 className="heading-2 mb-4 text-white">Paquetes de Bodas</h2>
-          <p className="text-xl text-purple-100">
+          <p className="text-xl text-primary-100">
             Opciones diseñadas para diferentes necesidades y presupuestos.
           </p>
         </div>
@@ -92,44 +92,44 @@ export default function Bodas() {
         <div className="max-w-4xl mx-auto">
           <h2 className="heading-2 mb-8 text-center">¿Qué Incluye Cada Paquete?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-purple-50 rounded-lg p-6">
+            <div className="bg-primary-50 rounded-lg p-6">
               <h3 className="font-bold text-lg mb-4">En Todos los Paquetes</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
-                  <Check className="w-5 h-5 text-royal-blue-700 mr-2 flex-shrink-0 mt-0.5" />
+                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
                   <span>Fotografía profesional durante todo el evento</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-5 h-5 text-royal-blue-700 mr-2 flex-shrink-0 mt-0.5" />
+                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
                   <span>Edición profesional de todas las fotos</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-5 h-5 text-royal-blue-700 mr-2 flex-shrink-0 mt-0.5" />
+                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
                   <span>Álbum digital en alta resolución</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-5 h-5 text-royal-blue-700 mr-2 flex-shrink-0 mt-0.5" />
+                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
                   <span>Derechos de uso personal</span>
                 </li>
               </ul>
             </div>
-            <div className="bg-purple-50 rounded-lg p-6">
+            <div className="bg-primary-50 rounded-lg p-6">
               <h3 className="font-bold text-lg mb-4">Add-ons Disponibles</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
-                  <Check className="w-5 h-5 text-royal-blue-700 mr-2 flex-shrink-0 mt-0.5" />
+                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
                   <span>Horas adicionales de cobertura</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-5 h-5 text-royal-blue-700 mr-2 flex-shrink-0 mt-0.5" />
+                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
                   <span>Álbum físico premium adicional</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-5 h-5 text-royal-blue-700 mr-2 flex-shrink-0 mt-0.5" />
+                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
                   <span>Sesiones adicionales (engagement, trash the dress)</span>
                 </li>
                 <li className="flex items-start">
-                  <Check className="w-5 h-5 text-royal-blue-700 mr-2 flex-shrink-0 mt-0.5" />
+                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
                   <span>Videografía profesional</span>
                 </li>
               </ul>
@@ -139,7 +139,7 @@ export default function Bodas() {
       </section>
 
       {/* FAQ */}
-      <section className="section-container bg-purple-50">
+      <section className="section-container bg-primary-50">
         <div className="max-w-3xl mx-auto">
           <h2 className="heading-2 mb-8 text-center">Preguntas Frecuentes sobre Bodas</h2>
           <FAQAccordion items={service.faq} />
@@ -147,17 +147,17 @@ export default function Bodas() {
       </section>
 
       {/* CTA */}
-      <section className="section-container bg-gradient-to-br from-royal-blue-900 via-royal-blue-800 to-purple-900 text-white">
+      <section className="section-container bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="heading-2 mb-6 text-white">¿Lista/o Para Empezar?</h2>
-          <p className="text-xl text-purple-100 mb-8">
+          <p className="text-xl text-primary-100 mb-8">
             Tu boda merece la mejor fotografía. Hablemos sobre cómo puedo hacer tu día aún más especial.
           </p>
           <a
             href="https://wa.me/50660140366?text=Hola, me gustaría reservar una fecha para mi boda"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary bg-white text-royal-blue-700 hover:bg-purple-50 inline-flex items-center space-x-2 text-lg px-8 py-4"
+            className="btn-primary bg-white text-primary-700 hover:bg-primary-50 inline-flex items-center space-x-2 text-lg px-8 py-4"
           >
             <span>Reservar Fecha para Mi Boda</span>
             <ArrowRight className="w-6 h-6" />
