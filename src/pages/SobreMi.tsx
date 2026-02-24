@@ -26,13 +26,16 @@ export default function SobreMi() {
             <div className="bg-white rounded-[2rem] p-8 md:p-10 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h2 className="heading-2 mb-6 text-primary-800">Mi Historia</h2>
               <p className="text-lg text-primary-700 leading-relaxed mb-6">
-                Mi pasión por la fotografía comenzó hace más de 10 años, cuando descubrí que
-                tenía la capacidad de congelar momentos en el tiempo y contar historias a través
-                de imágenes.
+                La fotografía y el video no son solo mi profesión, son la forma en que construyo historias que trascienden el momento.
+              </p>
+              <p className="text-lg text-primary-600 leading-relaxed mb-6">
+                Con más de 4 años de experiencia profesional en Costa Rica, he participado en la cobertura de bodas, 15 años y eventos corporativos de gran escala, colaborando con parejas, familias y empresas que valoran la calidad, el detalle y la excelencia en cada proyecto.
+              </p>
+              <p className="text-lg text-primary-600 leading-relaxed mb-6">
+                También trabajo como freelancer para empresas del sector de eventos y producción audiovisual, integrándome a distintos equipos con una visión estratégica, compromiso y alto estándar profesional.
               </p>
               <p className="text-lg text-primary-600 leading-relaxed">
-                He tenido el privilegio de trabajar con más de 200 parejas, familias y empresas,
-                capturando desde bodas íntimas hasta eventos corporativos grandes.
+                Mi estilo combina técnica, sensibilidad y una estética cinematográfica para crear imágenes que no solo documenten un evento, sino que transmitan la emoción y la esencia de lo vivido.
               </p>
             </div>
 

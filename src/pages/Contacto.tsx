@@ -51,9 +51,8 @@ export default function Contacto() {
               <h3 className="text-xl font-bold">Horarios</h3>
             </div>
             <div className="space-y-1 text-gray-700">
-              <p>Lunes - Viernes: 9:00 AM - 6:00 PM</p>
-              <p>Sábados: 10:00 AM - 4:00 PM</p>
-              <p>Domingos: Solo eventos</p>
+              <p>Viernes, Sábado, Domingo: Eventos</p>
+              <p>Lunes a Jueves: 2pm a 10pm</p>
             </div>
           </div>
 

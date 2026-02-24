@@ -27,7 +27,7 @@ export default function Home() {
       {/* Hero */}
       <Hero
         title="Captura Momentos Que Durarán Para Siempre"
-        subtitle="Fotografía profesional con arte y emoción. Especialistas en bodas, eventos, 15 años, corporativo y modelaje."
+        subtitle="Fotografía profesional con arte y emoción. Especializado en bodas, 15 años, eventos corporativos y modelaje en Costa Rica. Trabajo como freelancer empresarial, brindando cobertura creativa y resultados de alto nivel."
       />
 
       {/* Lo que entrego */}

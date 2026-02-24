@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Camera, Instagram, Facebook, Mail, Phone } from 'lucide-react'
+import FooterCredit from './FooterCredit'
 
 export default function Footer() {
   return (
@@ -100,6 +101,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-primary-700 text-center text-primary-100 text-sm">
           <p>&copy; {new Date().getFullYear()} Logan Photography. Todos los derechos reservados.</p>
+          <FooterCredit />
         </div>
       </div>
     </footer>

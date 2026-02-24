@@ -4,12 +4,9 @@ import GalleryGrid from '../components/GalleryGrid'
 import { services } from '../data/services'
 
 export default function Portfolio() {
-  const [selectedCategory, setSelectedCategory] = useState<string>('todos')
+  const [selectedCategory, setSelectedCategory] = useState<string>('bodas')
 
-  const categories = [
-    { id: 'todos', name: 'Todos' },
-    ...services.map(s => ({ id: s.id, name: s.title })),
-  ]
+  const categories = services.map(s => ({ id: s.id, name: s.title }))
 
   // Combinar todas las imágenes de todos los servicios
   const allImages = services.flatMap(service =>
@@ -19,10 +16,9 @@ export default function Portfolio() {
     }))
   ) as Array<{ id: string; src?: string; alt: string; category: string }>
 
-  const filteredImages =
-    selectedCategory === 'todos'
-      ? allImages.map(({ category, ...img }) => img)
-      : allImages.filter(img => img.category === selectedCategory).map(({ category, ...img }) => img)
+  const filteredImages = allImages
+    .filter(img => img.category === selectedCategory)
+    .map(({ category, ...img }) => img)
 
   return (
     <div className="section-container bg-white min-h-screen">

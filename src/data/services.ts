@@ -422,20 +422,15 @@ export const services: Service[] = [
     image: '/images/Editorial/DSC_5327-Enhanced-NR.jpg',
     gallery: [
       { id: 'moda-1', src: '/images/Editorial/1624416355114.jpg', alt: 'Foto de moda 1' },
-      { id: 'moda-2', src: '/images/Editorial/1624581969474.jpg', alt: 'Foto de moda 2' },
       { id: 'moda-3', src: '/images/Editorial/1624581969597.jpg', alt: 'Foto de moda 3' },
       { id: 'moda-4', src: '/images/Editorial/1624581969653.jpg', alt: 'Foto de moda 4' },
-      { id: 'moda-5', src: '/images/Editorial/1624581970008.jpg', alt: 'Foto de moda 5' },
-      { id: 'moda-6', src: '/images/Editorial/1625448274300.jpg', alt: 'Foto de moda 6' },
       { id: 'moda-7', src: '/images/Editorial/1625448274355.jpg', alt: 'Foto de moda 7' },
       { id: 'moda-8', src: '/images/Editorial/ANT_8528.JPG', alt: 'Foto de moda 8' },
       { id: 'moda-9', src: '/images/Editorial/DSC_5327-Enhanced-NR.jpg', alt: 'Foto de moda 9' },
-      { id: 'moda-10', src: '/images/Editorial/DSC_5348-Enhanced-NR-2.jpg', alt: 'Foto de moda 10' },
       { id: 'moda-11', src: '/images/Editorial/DSC_5364-Enhanced-NR.jpg', alt: 'Foto de moda 11' },
       { id: 'moda-12', src: '/images/Editorial/DSC_5369-Enhanced-NR.jpg', alt: 'Foto de moda 12' },
       { id: 'moda-13', src: '/images/Editorial/_LP30978-Enhanced-NR.jpg', alt: 'Foto de moda 13' },
       { id: 'moda-14', src: '/images/Editorial/_LP30982-Enhanced-NR-2.jpg', alt: 'Foto de moda 14' },
-      { id: 'moda-15', src: '/images/Editorial/_LP30983-Enhanced-NR.jpg', alt: 'Foto de moda 15' },
     ],
     packages: [
       {
