@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, ChevronDown } from 'lucide-react'
 import logo from '../assets/Logos Logan/todos/Transparente negro sin slogan.png'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
+  const [contactOpen, setContactOpen] = useState(false)
   const location = useLocation()
 
   const isActive = (path: string) => location.pathname === path
@@ -13,10 +14,15 @@ export default function Navbar() {
     { path: '/', label: 'Inicio' },
     { path: '/portafolio', label: 'Portafolio' },
     { path: '/paquetes', label: 'Paquetes' },
+  ]
+
+  const contactSubmenu = [
     { path: '/sobre-mi', label: 'Sobre mí' },
     { path: '/testimonios', label: 'Testimonios' },
     { path: '/contacto', label: 'Contacto' },
   ]
+
+  const isContactActive = contactSubmenu.some((item) => isActive(item.path))
 
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
@@ -45,6 +51,42 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
+            {/* Contacto con submenú */}
+            <div
+              className="relative"
+              onMouseEnter={() => setContactOpen(true)}
+              onMouseLeave={() => setContactOpen(false)}
+            >
+              <button
+                className={`text-sm font-medium transition-colors flex items-center gap-0.5 ${
+                  isContactActive
+                    ? 'text-primary-500 border-b-2 border-primary-500'
+                    : 'text-foreground hover:text-primary-500'
+                }`}
+              >
+                Contacto
+                <ChevronDown className={`w-4 h-4 transition-transform ${contactOpen ? 'rotate-180' : ''}`} />
+              </button>
+              {contactOpen && (
+                <div className="absolute top-full left-0 pt-1 min-w-[160px] z-10">
+                  <div className="bg-white rounded-lg shadow-lg border border-gray-100 py-1">
+                    {contactSubmenu.map((link) => (
+                      <Link
+                        key={link.path}
+                        to={link.path}
+                        className={`block px-4 py-2 text-sm font-medium ${
+                          isActive(link.path)
+                            ? 'bg-primary-50 text-primary-500'
+                            : 'text-foreground hover:bg-primary-50 hover:text-primary-500'
+                        }`}
+                      >
+                        {link.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
             <a
               href="https://wa.me/50660140366?text=Hola, me gustaría reservar una fecha"
               target="_blank"
@@ -84,6 +126,23 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
+            <div className="pt-1">
+              <p className="px-3 py-1.5 text-xs font-semibold text-gray-500 uppercase tracking-wider">Contacto</p>
+              {contactSubmenu.map((link) => (
+                <Link
+                  key={link.path}
+                  to={link.path}
+                  onClick={() => setIsOpen(false)}
+                  className={`block px-3 py-2 pl-5 rounded-lg text-base font-medium ${
+                    isActive(link.path)
+                      ? 'bg-primary-50 text-primary-500'
+                      : 'text-foreground hover:bg-primary-50'
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
             <a
               href="https://wa.me/50660140366?text=Hola, me gustaría reservar una fecha"
               target="_blank"
