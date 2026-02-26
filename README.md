@@ -6,7 +6,7 @@ Sitio web completo para un fotógrafo profesional, desarrollado con React + Type
 
 - **Portafolio Visual**: Galerías interactivas con lightbox
 - **Sistema de Reservas**: Calendario interactivo + formulario completo
-- **Múltiples Servicios**: Bodas, 15 Años, Fiestas, Corporativo, Modelaje/Pasarela
+- **Múltiples Servicios**: Bodas, 15 Años, Fiestas, Corporativo, LIVE-Transmisión en vivo
 - **Copy Persuasivo**: Contenido optimizado para conversión
 - **100% Responsive**: Diseño adaptado para todos los dispositivos
 - **Diseño Premium**: Minimalista, elegante y rápido
@@ -54,7 +54,7 @@ photography1/
 │   │       ├── QuinceAnios.tsx
 │   │       ├── Fiestas.tsx
 │   │       ├── Corporativo.tsx
-│   │       └── ModelajePasarela.tsx
+│   │       └── LiveTransmision.tsx
 │   ├── lib/             # Utilidades y servicios
 │   │   ├── booking.ts   # Servicio de reservas (localStorage)
 │   │   └── dateUtils.ts # Utilidades de fechas
@@ -102,7 +102,7 @@ photography1/
 - `/15-anios` - Servicio de 15 años
 - `/fiestas` - Servicio de fiestas
 - `/corporativo` - Servicio corporativo
-- `/modelaje-pasarela` - Servicio de moda/modelaje
+- `/live-transmision` - Transmisión en vivo
 - `/paquetes` - Comparación de paquetes
 - `/sobre-mi` - Información del fotógrafo
 - `/testimonios` - Testimonios de clientes

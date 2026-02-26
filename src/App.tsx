@@ -6,7 +6,7 @@ import Bodas from './pages/services/Bodas'
 import QuinceAnios from './pages/services/QuinceAnios'
 import Fiestas from './pages/services/Fiestas'
 import Corporativo from './pages/services/Corporativo'
-import ModelajePasarela from './pages/services/ModelajePasarela'
+import LiveTransmision from './pages/services/LiveTransmision'
 import Paquetes from './pages/Paquetes'
 import SobreMi from './pages/SobreMi'
 import Testimonios from './pages/Testimonios'
@@ -25,7 +25,7 @@ function App() {
           <Route path="/15-anios" element={<QuinceAnios />} />
           <Route path="/fiestas" element={<Fiestas />} />
           <Route path="/corporativo" element={<Corporativo />} />
-          <Route path="/modelaje-pasarela" element={<ModelajePasarela />} />
+          <Route path="/live-transmision" element={<LiveTransmision />} />
           <Route path="/paquetes" element={<Paquetes />} />
           <Route path="/sobre-mi" element={<SobreMi />} />
           <Route path="/testimonios" element={<Testimonios />} />

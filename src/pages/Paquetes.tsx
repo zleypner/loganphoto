@@ -69,6 +69,7 @@ export default function Paquetes() {
                 <li>• Álbum digital en alta resolución</li>
                 <li>• Formato listo para imprimir</li>
                 <li>• Acceso permanente online</li>
+                <li>• Almacenamiento en nube y link transferible</li>
               </ul>
             </div>
           </div>
@@ -77,31 +78,24 @@ export default function Paquetes() {
         {/* Add-ons */}
         <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 mt-8">
           <h2 className="heading-2 mb-8 text-center">Servicios Adicionales</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="border border-gray-200 rounded-lg p-6">
               <h3 className="font-bold mb-2">Horas Adicionales</h3>
-              <p className="text-primary-600 text-sm mb-4">₡78,000/hora</p>
+              <p className="text-primary-600 text-sm mb-4">₡15,000/hora</p>
               <p className="text-sm text-primary-600">
                 Extiende la cobertura de tu evento cuando lo necesites.
               </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="font-bold mb-2">Álbum Físico Premium</h3>
-              <p className="text-primary-600 text-sm mb-4">Desde ₡156,000</p>
-              <p className="text-sm text-primary-600">
-                Álbum físico de lujo con diseño personalizado.
-              </p>
-            </div>
-            <div className="border border-gray-200 rounded-lg p-6">
               <h3 className="font-bold mb-2">Sesiones Adicionales</h3>
-              <p className="text-primary-600 text-sm mb-4">Desde ₡208,000</p>
+              <p className="text-primary-600 text-sm mb-4">Desde ₡45,000</p>
               <p className="text-sm text-primary-600">
                 Engagement, trash the dress, sesiones familiares.
               </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-6">
               <h3 className="font-bold mb-2">Video Highlights</h3>
-              <p className="text-primary-600 text-sm mb-4">Desde ₡260,000</p>
+              <p className="text-primary-600 text-sm mb-4">Desde ₡90,000</p>
               <p className="text-sm text-primary-600">
                 Video corto con lo mejor del evento.
               </p>

@@ -28,7 +28,7 @@ const EVENT_TYPES = [
   '15 Años',
   'Fiesta',
   'Evento Corporativo',
-  'Modelaje / Pasarela',
+  'LIVE-Transmisión en vivo',
   'Sesión de Fotografía',
   'Otro',
 ]

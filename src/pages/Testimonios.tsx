@@ -28,7 +28,7 @@ export default function Testimonios() {
           {/* Estadísticas - Bento Style */}
           <div className="bg-white rounded-[2rem] shadow-lg p-8 md:p-12 mt-16">
             <h2 className="heading-2 mb-8 text-center text-primary-800">Números que Hablan</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
               <div className="bg-primary-50 rounded-[1.5rem] p-6 text-center hover:scale-105 transition-transform duration-300">
                 <p className="text-4xl font-bold text-primary-700 mb-2">200+</p>
                 <p className="text-primary-600">Eventos Capturados</p>
@@ -38,12 +38,8 @@ export default function Testimonios() {
                 <p className="text-primary-600">Clientes Satisfechos</p>
               </div>
               <div className="bg-primary-50 rounded-[1.5rem] p-6 text-center hover:scale-105 transition-transform duration-300">
-                <p className="text-4xl font-bold text-primary-700 mb-2">10+</p>
+                <p className="text-4xl font-bold text-primary-700 mb-2">5</p>
                 <p className="text-primary-600">Años de Experiencia</p>
-              </div>
-              <div className="bg-primary-50 rounded-[1.5rem] p-6 text-center hover:scale-105 transition-transform duration-300">
-                <p className="text-4xl font-bold text-primary-700 mb-2">5.0</p>
-                <p className="text-primary-600">Calificación Promedio</p>
               </div>
             </div>
           </div>

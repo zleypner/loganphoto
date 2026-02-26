@@ -11,15 +11,15 @@ export default function Home() {
   const featuredServices = services.slice(0, 5)
   const featuredTestimonials = testimonials.slice(0, 3)
   const featuredGallery = [
-    { id: 'featured-1', src: '/src/assets/MENUS/Bodas/ANT_5208-Enhanced-NR-2.jpg', alt: 'Foto de boda destacada' },
-    { id: 'featured-2', src: '/src/assets/MENUS/Quince Años/MFS_7827-Enhanced-NR.jpg', alt: 'Foto de 15 años destacada' },
-    { id: 'featured-3', src: '/src/assets/MENUS/Editorial/DSC_5327-Enhanced-NR.jpg', alt: 'Foto editorial destacada' },
-    { id: 'featured-4', src: '/src/assets/MENUS/Bodas/_LP33034-Enhanced-NR.jpg', alt: 'Foto de boda destacada' },
-    { id: 'featured-5', src: '/src/assets/MENUS/Empresarial /DSC_6773-Enhanced-NR-2.jpg', alt: 'Foto corporativa destacada' },
-    { id: 'featured-6', src: '/src/assets/MENUS/Chicos/MFS_5193-Enhanced-NR.jpg', alt: 'Foto de fiesta destacada' },
-    { id: 'featured-7', src: '/src/assets/MENUS/Quince Años/_LP37311-Enhanced-NR-2.jpg', alt: 'Foto de 15 años destacada' },
-    { id: 'featured-8', src: '/src/assets/MENUS/Editorial/_LP30978-Enhanced-NR.jpg', alt: 'Foto editorial destacada' },
-    { id: 'featured-9', src: '/src/assets/MENUS/Bodas/MFS_6385-Enhanced-NR.jpg', alt: 'Foto de boda destacada' },
+    { id: 'featured-1', src: '/images/Bodas/ANT_5208-Enhanced-NR-2.jpg', alt: 'Foto de boda destacada' },
+    { id: 'featured-2', src: '/images/Quince Años/MFS_7827-Enhanced-NR.jpg', alt: 'Foto de 15 años destacada' },
+    { id: 'featured-3', src: '/images/Editorial/DSC_5327-Enhanced-NR.jpg', alt: 'Foto editorial destacada' },
+    { id: 'featured-4', src: '/images/Bodas/_LP33034-Enhanced-NR.jpg', alt: 'Foto de boda destacada' },
+    { id: 'featured-5', src: '/images/Empresarial /DSC_6773-Enhanced-NR-2.jpg', alt: 'Foto corporativa destacada' },
+    { id: 'featured-6', src: '/images/Chicos/MFS_5193-Enhanced-NR.jpg', alt: 'Foto de fiesta destacada' },
+    { id: 'featured-7', src: '/images/Quince Años/_LP37311-Enhanced-NR-2.jpg', alt: 'Foto de 15 años destacada' },
+    { id: 'featured-8', src: '/images/Editorial/_LP30978-Enhanced-NR.jpg', alt: 'Foto editorial destacada' },
+    { id: 'featured-9', src: '/images/Bodas/MFS_6385-Enhanced-NR.jpg', alt: 'Foto de boda destacada' },
   ]
 
   return (
@@ -27,7 +27,7 @@ export default function Home() {
       {/* Hero */}
       <Hero
         title="Captura Momentos Que Durarán Para Siempre"
-        subtitle="Fotografía profesional con arte y emoción. Especializado en bodas, 15 años, eventos corporativos y modelaje en Costa Rica. Trabajo como freelancer empresarial, brindando cobertura creativa y resultados de alto nivel."
+        subtitle="Fotografía profesional con arte y emoción. Especializado en bodas, 15 años, eventos corporativos y transmisión en vivo en Costa Rica. Trabajo como freelancer empresarial, brindando cobertura creativa y resultados de alto nivel."
       />
 
       {/* Lo que entrego */}

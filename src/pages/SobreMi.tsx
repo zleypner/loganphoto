@@ -29,7 +29,7 @@ export default function SobreMi() {
                 La fotografía y el video no son solo mi profesión, son la forma en que construyo historias que trascienden el momento.
               </p>
               <p className="text-lg text-primary-600 leading-relaxed mb-6">
-                Con más de 4 años de experiencia profesional en Costa Rica, he participado en la cobertura de bodas, 15 años y eventos corporativos de gran escala, colaborando con parejas, familias y empresas que valoran la calidad, el detalle y la excelencia en cada proyecto.
+                Con más de 5 años de experiencia profesional en Costa Rica, he participado en la cobertura de bodas, 15 años y eventos corporativos de gran escala, colaborando con parejas, familias y empresas que valoran la calidad, el detalle y la excelencia en cada proyecto.
               </p>
               <p className="text-lg text-primary-600 leading-relaxed mb-6">
                 También trabajo como freelancer para empresas del sector de eventos y producción audiovisual, integrándome a distintos equipos con una visión estratégica, compromiso y alto estándar profesional.
@@ -129,23 +129,6 @@ export default function SobreMi() {
                 imágenes que atesores toda la vida.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Garantía */}
-      <section className="section-container bg-gradient-to-br from-primary-500 via-deep-blue to-navy text-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="heading-2 mb-6 text-white">Mi Promesa a Ti</h2>
-          <p className="text-xl text-primary-100 mb-8">
-            Estoy comprometido con tu satisfacción. Si no estás completamente feliz con tus fotos,
-            trabajaré contigo para hacer los ajustes necesarios.
-          </p>
-          <div className="bg-white/10 backdrop-blur-sm rounded-[2rem] p-8">
-            <p className="text-lg text-white">
-              <strong>Garantía de Calidad:</strong> Si hay algún problema técnico o no estás satisfecho
-              con el resultado, revisaré y corregiré sin costo adicional.
-            </p>
           </div>
         </div>
       </section>
