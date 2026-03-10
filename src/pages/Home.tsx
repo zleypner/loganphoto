@@ -18,7 +18,7 @@ export default function Home() {
     { id: 'featured-5', src: '/images/Empresarial /DSC_6773-Enhanced-NR-2.jpg', alt: 'Foto corporativa destacada' },
     { id: 'featured-6', src: '/images/Chicos/MFS_5193-Enhanced-NR.jpg', alt: 'Foto de fiesta destacada' },
     { id: 'featured-7', src: '/images/Quince Años/_LP37311-Enhanced-NR-2.jpg', alt: 'Foto de 15 años destacada' },
-    { id: 'featured-8', src: '/images/Editorial/_LP30978-Enhanced-NR.jpg', alt: 'Foto editorial destacada' },
+    { id: 'featured-8', src: '/images/Editorial/DSC_5327-Enhanced-NR.jpg', alt: 'Foto editorial destacada' },
     { id: 'featured-9', src: '/images/Bodas/MFS_6385-Enhanced-NR.jpg', alt: 'Foto de boda destacada' },
   ]
 

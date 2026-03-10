@@ -430,7 +430,7 @@ export const services: Service[] = [
       { id: 'live-1', src: '/images/Editorial/1624416355114.jpg', alt: 'Transmisión en vivo' },
       { id: 'live-2', src: '/images/Editorial/1624581969597.jpg', alt: 'Transmisión en vivo' },
       { id: 'live-3', src: '/images/Editorial/DSC_5327-Enhanced-NR.jpg', alt: 'Transmisión en vivo' },
-      { id: 'live-4', src: '/images/Editorial/_LP30978-Enhanced-NR.jpg', alt: 'Transmisión en vivo' },
+      { id: 'live-4', src: '/images/Editorial/DSC_5327-Enhanced-NR.jpg', alt: 'Transmisión en vivo' },
     ],
     packages: [
       {
