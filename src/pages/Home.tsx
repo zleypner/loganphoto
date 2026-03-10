@@ -30,52 +30,20 @@ export default function Home() {
         subtitle="Fotografía profesional con arte y emoción. Especializado en bodas, 15 años, eventos corporativos y transmisión en vivo en Costa Rica. Trabajo como freelancer empresarial, brindando cobertura creativa y resultados de alto nivel."
       />
 
-      {/* Lo que entrego */}
+      {/* Portafolio destacado */}
       <section className="section-container bg-white">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="heading-2 mb-4">No Solo Tomo Fotos, Creo Experiencias</h2>
+          <h2 className="heading-2 mb-4">No solo tomo fotos, capturo momentos.</h2>
           <p className="text-xl text-foreground">
-            Cada evento es único. Mi enfoque combina técnica profesional con un ojo artístico
-            para entregarte imágenes que no solo documentan, sino que emocionan.
+            Una selección de momentos capturados con arte y pasión.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="text-center p-6">
-            <div className="w-16 h-16 bg-gradient-to-r from-primary-500 to-deep-blue rounded-full flex items-center justify-center mx-auto mb-4">
-              <Award className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-xl font-bold mb-2">Calidad Premium</h3>
-            <p className="text-foreground">
-              Equipamiento profesional de última generación y edición de nivel editorial.
-            </p>
-          </div>
-          <div className="text-center p-6">
-            <div className="w-16 h-16 bg-gradient-to-r from-primary-500 to-deep-blue rounded-full flex items-center justify-center mx-auto mb-4">
-              <Clock className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-xl font-bold mb-2">Entrega Puntual</h3>
-            <p className="text-foreground">
-              Respeta tus tiempos. Entrega garantizada en los plazos establecidos.
-            </p>
-          </div>
-          <div className="text-center p-6">
-            <div className="w-16 h-16 bg-gradient-to-r from-primary-500 to-deep-blue rounded-full flex items-center justify-center mx-auto mb-4">
-              <Users className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-xl font-bold mb-2">Experiencia Personalizada</h3>
-            <p className="text-foreground">
-              Cada cliente es único. Trabajamos juntos para lograr exactamente lo que imaginas.
-            </p>
-          </div>
-          <div className="text-center p-6">
-            <div className="w-16 h-16 bg-gradient-to-r from-primary-500 to-deep-blue rounded-full flex items-center justify-center mx-auto mb-4">
-              <Check className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-xl font-bold mb-2">Garantía de Satisfacción</h3>
-            <p className="text-foreground">
-              Comprometido con tu felicidad. Revisión y ajustes incluidos.
-            </p>
-          </div>
+        <GalleryGrid images={featuredGallery} columns={3} />
+        <div className="text-center mt-8">
+          <Link to="/portafolio" className="btn-primary inline-flex items-center space-x-2">
+            <span>Ver Todo el Portafolio</span>
+            <ArrowRight className="w-5 h-5" />
+          </Link>
         </div>
       </section>
 
@@ -97,32 +65,6 @@ export default function Home() {
               link={`/${service.slug}`}
             />
           ))}
-        </div>
-      </section>
-
-      {/* Portafolio destacado */}
-      <section className="section-container bg-white">
-        <div className="flex items-center justify-between mb-12">
-          <div>
-            <h2 className="heading-2 mb-4">Portafolio Destacado</h2>
-            <p className="text-xl text-foreground">
-              Una selección de momentos capturados con arte y pasión.
-            </p>
-          </div>
-          <Link
-            to="/portafolio"
-            className="hidden md:flex items-center space-x-2 btn-secondary group"
-          >
-            <span>Ver Todo</span>
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </Link>
-        </div>
-        <GalleryGrid images={featuredGallery} columns={3} />
-        <div className="text-center mt-8 md:hidden">
-          <Link to="/portafolio" className="btn-primary inline-flex items-center space-x-2">
-            <span>Ver Todo el Portafolio</span>
-            <ArrowRight className="w-5 h-5" />
-          </Link>
         </div>
       </section>
 
@@ -225,8 +167,57 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Final */}
+      {/* Lo que entrego */}
       <section className="section-container bg-white">
+        <div className="text-center max-w-3xl mx-auto mb-12">
+          <h2 className="heading-2 mb-4">Lo Que Te Entrego</h2>
+          <p className="text-xl text-foreground">
+            Cada evento es único. Mi enfoque combina técnica profesional con un ojo artístico
+            para entregarte imágenes que no solo documentan, sino que emocionan.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="text-center p-6">
+            <div className="w-16 h-16 bg-gradient-to-r from-primary-500 to-deep-blue rounded-full flex items-center justify-center mx-auto mb-4">
+              <Award className="w-8 h-8 text-white" />
+            </div>
+            <h3 className="text-xl font-bold mb-2">Calidad Premium</h3>
+            <p className="text-foreground">
+              Equipamiento profesional de última generación y edición de nivel editorial.
+            </p>
+          </div>
+          <div className="text-center p-6">
+            <div className="w-16 h-16 bg-gradient-to-r from-primary-500 to-deep-blue rounded-full flex items-center justify-center mx-auto mb-4">
+              <Clock className="w-8 h-8 text-white" />
+            </div>
+            <h3 className="text-xl font-bold mb-2">Entrega Puntual</h3>
+            <p className="text-foreground">
+              Respeta tus tiempos. Entrega garantizada en los plazos establecidos.
+            </p>
+          </div>
+          <div className="text-center p-6">
+            <div className="w-16 h-16 bg-gradient-to-r from-primary-500 to-deep-blue rounded-full flex items-center justify-center mx-auto mb-4">
+              <Users className="w-8 h-8 text-white" />
+            </div>
+            <h3 className="text-xl font-bold mb-2">Experiencia Personalizada</h3>
+            <p className="text-foreground">
+              Cada cliente es único. Trabajamos juntos para lograr exactamente lo que imaginas.
+            </p>
+          </div>
+          <div className="text-center p-6">
+            <div className="w-16 h-16 bg-gradient-to-r from-primary-500 to-deep-blue rounded-full flex items-center justify-center mx-auto mb-4">
+              <Check className="w-8 h-8 text-white" />
+            </div>
+            <h3 className="text-xl font-bold mb-2">Garantía de Satisfacción</h3>
+            <p className="text-foreground">
+              Comprometido con tu felicidad. Revisión y ajustes incluidos.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Final */}
+      <section className="section-container bg-primary-50">
         <div className="max-w-4xl mx-auto text-center bg-gradient-to-br from-primary-50 to-sky-blue/10 rounded-[2rem] p-12 md:p-16">
           <h2 className="heading-2 mb-6">
             ¿Listo Para Capturar Tu Momento Especial?

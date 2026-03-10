@@ -23,7 +23,7 @@ export default function Hero({
   secondaryCtaLink = '/portafolio',
 }: HeroProps) {
   return (
-    <div className="relative h-[60vh] md:h-[80vh] flex items-center justify-center overflow-hidden">
+    <div className="relative min-h-[70vh] md:min-h-[80vh] flex items-center justify-center py-16 md:py-20">
       {/* Background Image Placeholder */}
       <div
         className="absolute inset-0 bg-gradient-to-br from-primary-500 via-deep-blue to-navy"
