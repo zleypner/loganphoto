@@ -75,34 +75,6 @@ export default function Paquetes() {
           </div>
         </div>
 
-        {/* Add-ons */}
-        <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 mt-8">
-          <h2 className="heading-2 mb-8 text-center">Servicios Adicionales</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="font-bold mb-2">Horas Adicionales</h3>
-              <p className="text-primary-600 text-sm mb-4">₡15,000/hora</p>
-              <p className="text-sm text-primary-600">
-                Extiende la cobertura de tu evento cuando lo necesites.
-              </p>
-            </div>
-            <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="font-bold mb-2">Sesiones Adicionales</h3>
-              <p className="text-primary-600 text-sm mb-4">Desde ₡45,000</p>
-              <p className="text-sm text-primary-600">
-                Engagement, trash the dress, sesiones familiares.
-              </p>
-            </div>
-            <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="font-bold mb-2">Video Highlights</h3>
-              <p className="text-primary-600 text-sm mb-4">Desde ₡90,000</p>
-              <p className="text-sm text-primary-600">
-                Video corto con lo mejor del evento.
-              </p>
-            </div>
-          </div>
-        </div>
-
         {/* CTA */}
         <div className="mt-16 text-center bg-gradient-to-br from-gray-900 to-gray-800 text-white rounded-2xl p-12">
           <h2 className="heading-2 mb-4 text-white">¿Necesitas un Paquete Personalizado?</h2>
