@@ -246,7 +246,7 @@ export const services: Service[] = [
     ],
     packages: [
       {
-        name: 'Básico',
+        name: 'Baby Shower',
         price: '₡208,000',
         features: [
           '3 horas de cobertura',
@@ -256,7 +256,7 @@ export const services: Service[] = [
         ],
       },
       {
-        name: 'Completo',
+        name: 'Cumpleaños para adultos',
         price: '₡312,000',
         features: [
           '5 horas de cobertura',
@@ -267,7 +267,7 @@ export const services: Service[] = [
         ],
       },
       {
-        name: 'Premium',
+        name: 'Cumpleaños para niños',
         price: '₡468,000',
         features: [
           '8 horas de cobertura',
