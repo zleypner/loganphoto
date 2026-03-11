@@ -187,19 +187,6 @@ export const services: Service[] = [
           'Solo video: ₡100,000',
         ],
       },
-      {
-        name: 'Deluxe',
-        price: '₡936,000',
-        features: [
-          '8 horas de cobertura completa',
-          'Hasta 500 fotos editadas',
-          'Sesión previa de prueba',
-          'Álbum digital + álbum físico premium',
-          'Sesión individual + sesión con familia',
-          'Video highlights incluido',
-          'Entrega en 3-4 semanas',
-        ],
-      },
     ],
     process: [
       {
