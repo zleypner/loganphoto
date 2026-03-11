@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
+import OptimizedImage from './OptimizedImage'
 
 interface ServiceCardProps {
   title: string
@@ -25,11 +26,10 @@ export default function ServiceCard({
     >
       <div className="relative aspect-[4/3] md:aspect-square overflow-hidden bg-gradient-to-br from-primary-400 to-deep-blue">
         {image ? (
-          <img
+          <OptimizedImage
             src={image}
             alt={title}
-            loading="lazy"
-            decoding="async"
+            wrapperClassName="w-full h-full"
             className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
           />
         ) : (

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { X, ChevronLeft, ChevronRight } from 'lucide-react'
+import OptimizedImage from './OptimizedImage'
 
 interface GalleryGridProps {
   images: Array<{ id: string; src?: string; alt: string }>
@@ -36,23 +37,25 @@ export default function GalleryGrid({ images, columns = 3 }: GalleryGridProps) {
         {images.map((image, index) => (
           <div
             key={image.id}
-            onClick={() => openLightbox(index)}
-            className="relative aspect-[3/4] overflow-hidden rounded-2xl cursor-pointer group bg-gradient-to-br from-gray-200 to-gray-300"
+            className="relative aspect-[3/4] overflow-hidden rounded-2xl cursor-pointer group"
           >
             {image.src ? (
-              <img
+              <OptimizedImage
                 src={image.src}
                 alt={image.alt}
-                loading="lazy"
-                decoding="async"
+                wrapperClassName="w-full h-full"
                 className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                onClick={() => openLightbox(index)}
               />
             ) : (
-              <div className="w-full h-full flex items-center justify-center">
+              <div
+                onClick={() => openLightbox(index)}
+                className="w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-200 to-gray-300"
+              >
                 <span className="text-gray-500 text-sm">{image.alt}</span>
               </div>
             )}
-            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
+            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors pointer-events-none" />
           </div>
         ))}
       </div>

@@ -11,15 +11,15 @@ export default function Home() {
   const featuredServices = services.slice(0, 5)
   const featuredTestimonials = testimonials.slice(0, 3)
   const featuredGallery = [
-    { id: 'featured-1', src: '/images/Bodas/ANT_5208-Enhanced-NR-2.jpg', alt: 'Foto de boda destacada' },
-    { id: 'featured-2', src: '/images/Quince Años/MFS_7827-Enhanced-NR.jpg', alt: 'Foto de 15 años destacada' },
-    { id: 'featured-3', src: '/images/Editorial/DSC_5327-Enhanced-NR.jpg', alt: 'Foto editorial destacada' },
-    { id: 'featured-4', src: '/images/Bodas/_LP33034-Enhanced-NR.jpg', alt: 'Foto de boda destacada' },
-    { id: 'featured-5', src: '/images/Empresarial /DSC_6773-Enhanced-NR-2.jpg', alt: 'Foto corporativa destacada' },
-    { id: 'featured-6', src: '/images/Chicos/MFS_5193-Enhanced-NR.jpg', alt: 'Foto de fiesta destacada' },
-    { id: 'featured-7', src: '/images/Quince Años/_LP37311-Enhanced-NR-2.jpg', alt: 'Foto de 15 años destacada' },
-    { id: 'featured-8', src: '/images/Editorial/DSC_5327-Enhanced-NR.jpg', alt: 'Foto editorial destacada' },
-    { id: 'featured-9', src: '/images/Bodas/MFS_6385-Enhanced-NR.jpg', alt: 'Foto de boda destacada' },
+    { id: 'featured-1', src: '/images/Bodas/ANT_5208-Enhanced-NR-2.webp', alt: 'Foto de boda destacada' },
+    { id: 'featured-2', src: '/images/Quince Años/MFS_7827-Enhanced-NR.webp', alt: 'Foto de 15 años destacada' },
+    { id: 'featured-3', src: '/images/Editorial/DSC_5327-Enhanced-NR.webp', alt: 'Foto editorial destacada' },
+    { id: 'featured-4', src: '/images/Bodas/_LP33034-Enhanced-NR.webp', alt: 'Foto de boda destacada' },
+    { id: 'featured-5', src: '/images/Empresarial /DSC_6773-Enhanced-NR-2.webp', alt: 'Foto corporativa destacada' },
+    { id: 'featured-6', src: '/images/Chicos/MFS_5193-Enhanced-NR.webp', alt: 'Foto de fiesta destacada' },
+    { id: 'featured-7', src: '/images/Quince Años/_LP37311-Enhanced-NR-2.webp', alt: 'Foto de 15 años destacada' },
+    { id: 'featured-8', src: '/images/Editorial/DSC_5327-Enhanced-NR.webp', alt: 'Foto editorial destacada' },
+    { id: 'featured-9', src: '/images/Bodas/MFS_6385-Enhanced-NR.webp', alt: 'Foto de boda destacada' },
   ]
 
   return (
