@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
-import { Camera, Instagram, Facebook, Mail, Phone } from 'lucide-react'
+import { Instagram, Facebook, Mail, Phone } from 'lucide-react'
 import FooterCredit from './FooterCredit'
+import logo from '../assets/Logos Logan/todos/Transparente  blanco sin slogan.png'
 
 export default function Footer() {
   return (
@@ -9,9 +10,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <Link to="/" className="flex items-center space-x-2 mb-4">
-              <Camera className="w-8 h-8 text-sky-blue" />
-              <span className="text-xl font-bold">Logan Photography</span>
+            <Link to="/" className="flex items-center mb-4">
+              <img
+                src={logo}
+                alt="Logan Photography"
+                className="h-16 w-auto object-contain"
+              />
             </Link>
             <p className="text-primary-100 mb-4 max-w-md">
               Capturando momentos inolvidables con arte y profesionalismo.
