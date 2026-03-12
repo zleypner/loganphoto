@@ -38,7 +38,7 @@ export default function TestimonialCard({
             className="w-12 h-12 rounded-full object-cover mr-4"
           />
         ) : (
-          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-gray-300 to-gray-400 mr-4 flex items-center justify-center text-gray-600 font-semibold">
+          <div className="w-12 h-12 rounded-full bg-primary-100 mr-4 flex items-center justify-center text-primary-700 font-semibold">
             {name.charAt(0)}
           </div>
         )}

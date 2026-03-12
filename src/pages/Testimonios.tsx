@@ -19,9 +19,7 @@ export default function Testimonios() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {testimonials.map((testimonial) => (
-              <div key={testimonial.id} className="bg-white rounded-[2rem] p-6 shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300">
-                <TestimonialCard {...testimonial} />
-              </div>
+              <TestimonialCard key={testimonial.id} {...testimonial} />
             ))}
           </div>
 
