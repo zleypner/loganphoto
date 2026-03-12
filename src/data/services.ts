@@ -144,20 +144,17 @@ export const services: Service[] = [
     shortDescription: 'Celebra tus 15 años con elegancia y estilo único.',
     image: '/images/Quince Años/MFS_7827-Enhanced-NR.webp',
     gallery: [
-      { id: 'quince-1', src: '/images/Quince Años/MFS_2468-Enhanced-NR (1).webp', alt: 'Foto de 15 años 1' },
-      { id: 'quince-2', src: '/images/Quince Años/MFS_2679-Enhanced-NR-2.webp', alt: 'Foto de 15 años 2' },
-      { id: 'quince-3', src: '/images/Quince Años/MFS_5954-Enhanced-NR.webp', alt: 'Foto de 15 años 3' },
-      { id: 'quince-4', src: '/images/Quince Años/MFS_7388-Enhanced-NR.webp', alt: 'Foto de 15 años 4' },
-      { id: 'quince-5', src: '/images/Quince Años/MFS_7827-Enhanced-NR.webp', alt: 'Foto de 15 años 5' },
-      { id: 'quince-6', src: '/images/Quince Años/MFS_7845-Enhanced-NR.webp', alt: 'Foto de 15 años 6' },
-      { id: 'quince-7', src: '/images/Quince Años/MFS_7922-Enhanced-NR-2.webp', alt: 'Foto de 15 años 7' },
-      { id: 'quince-8', src: '/images/Quince Años/_LP30397-Enhanced-NR-2.webp', alt: 'Foto de 15 años 8' },
-      { id: 'quince-9', src: '/images/Quince Años/_LP30443-Enhanced-NR.webp', alt: 'Foto de 15 años 9' },
-      { id: 'quince-10', src: '/images/Quince Años/_LP30561-Enhanced-NR.webp', alt: 'Foto de 15 años 10' },
-      { id: 'quince-11', src: '/images/Quince Años/_LP37189.webp', alt: 'Foto de 15 años 11' },
-      { id: 'quince-12', src: '/images/Quince Años/_LP37311-Enhanced-NR-2.webp', alt: 'Foto de 15 años 12' },
-      { id: 'quince-13', src: '/images/Quince Años/_LP37347-Enhanced-NR.webp', alt: 'Foto de 15 años 13' },
-      { id: 'quince-14', src: '/images/Quince Años/_LP37478-Enhanced-NR.webp', alt: 'Foto de 15 años 14' },
+      { id: 'quince-1', src: '/images/Quince Años/MFS_2679-Enhanced-NR-2.webp', alt: 'Foto de 15 años 1' },
+      { id: 'quince-2', src: '/images/Quince Años/MFS_7388-Enhanced-NR.webp', alt: 'Foto de 15 años 2' },
+      { id: 'quince-3', src: '/images/Quince Años/MFS_7827-Enhanced-NR.webp', alt: 'Foto de 15 años 3' },
+      { id: 'quince-4', src: '/images/Quince Años/MFS_7845-Enhanced-NR.webp', alt: 'Foto de 15 años 4' },
+      { id: 'quince-5', src: '/images/Quince Años/MFS_7922-Enhanced-NR-2.webp', alt: 'Foto de 15 años 5' },
+      { id: 'quince-6', src: '/images/Quince Años/_LP30397-Enhanced-NR-2.webp', alt: 'Foto de 15 años 6' },
+      { id: 'quince-7', src: '/images/Quince Años/_LP30443-Enhanced-NR.webp', alt: 'Foto de 15 años 7' },
+      { id: 'quince-8', src: '/images/Quince Años/_LP30561-Enhanced-NR.webp', alt: 'Foto de 15 años 8' },
+      { id: 'quince-9', src: '/images/Quince Años/_LP37189.webp', alt: 'Foto de 15 años 9' },
+      { id: 'quince-10', src: '/images/Quince Años/_LP37311-Enhanced-NR-2.webp', alt: 'Foto de 15 años 10' },
+      { id: 'quince-11', src: '/images/Quince Años/_LP37347-Enhanced-NR.webp', alt: 'Foto de 15 años 11' },
     ],
     packages: [
       {
@@ -243,6 +240,7 @@ export const services: Service[] = [
       { id: 'fiesta-8', src: '/images/Chicos/MFS_7607-Enhanced-NR.webp', alt: 'Foto de fiesta 8' },
       { id: 'fiesta-9', src: '/images/Chicos/P1400360-Enhanced-NR.webp', alt: 'Foto de fiesta 9' },
       { id: 'fiesta-10', src: '/images/Chicos/P1400373-Enhanced-NR.webp', alt: 'Foto de fiesta 10' },
+      { id: 'fiesta-11', src: '/images/Quince Años/MFS_5954-Enhanced-NR.webp', alt: 'Pastel de cumpleaños Toy Story' },
     ],
     packages: [
       {
@@ -331,8 +329,7 @@ export const services: Service[] = [
       { id: 'corp-10', src: '/images/Empresarial /DSC_7158-Enhanced-NR.webp', alt: 'Foto corporativa 10' },
       { id: 'corp-11', src: '/images/Empresarial /DSC_7171-Enhanced-NR.webp', alt: 'Foto corporativa 11' },
       { id: 'corp-12', src: '/images/Empresarial /IMG_8324.webp', alt: 'Foto corporativa 12' },
-      { id: 'corp-13', src: '/images/Empresarial /P1320579-Enhanced-NR.webp', alt: 'Foto corporativa 13' },
-      { id: 'corp-14', src: '/images/Empresarial /_LP30466-Enhanced-NR.webp', alt: 'Foto corporativa 14' },
+      { id: 'corp-13', src: '/images/Empresarial /_LP30466-Enhanced-NR.webp', alt: 'Foto corporativa 13' },
     ],
     packages: [
       {
@@ -408,7 +405,7 @@ export const services: Service[] = [
   },
   {
     id: 'live-transmision',
-    title: 'LIVE-Transmisión en vivo',
+    title: 'Editorial',
     slug: 'live-transmision',
     description: 'Transmisión en vivo profesional para eventos, bodas, conferencias y presentaciones. Llevamos tu evento a quien no pueda estar presente con calidad y estabilidad.',
     shortDescription: 'Transmisión en vivo profesional para tu evento.',
