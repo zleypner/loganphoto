@@ -14,11 +14,11 @@ export default function Navbar() {
     { path: '/', label: 'Inicio' },
     { path: '/portafolio', label: 'Portafolio' },
     { path: '/paquetes', label: 'Paquetes' },
+    { path: '/testimonios', label: 'Testimonios' },
   ]
 
   const contactSubmenu = [
     { path: '/sobre-mi', label: 'Sobre mí' },
-    { path: '/testimonios', label: 'Testimonios' },
     { path: '/contacto', label: 'Contacto' },
   ]
 

@@ -13,7 +13,7 @@ export const faqs: FAQ[] = [
   {
     category: 'reservas',
     question: '¿Cuánto tiempo de anticipación debo reservar?',
-    answer: 'Recomiendo reservar con al menos 1-3 meses de anticipación para eventos generales, y 3-6 meses para bodas, especialmente en temporada alta (noviembre a febrero). Las fechas populares se agotan rápidamente, así que cuanto antes mejor.',
+    answer: 'Recomiendo reservar con al menos 1-3 meses de anticipación para eventos generales, y 3-6 meses para bodas, especialmente en temporada alta (octubre a febrero). Las fechas populares se agotan rápidamente, así que cuanto antes mejor.',
   },
   {
     category: 'reservas',

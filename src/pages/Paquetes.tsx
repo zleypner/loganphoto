@@ -81,13 +81,15 @@ export default function Paquetes() {
           <p className="text-xl text-primary-100 mb-8">
             Trabajemos juntos para crear un paquete que se ajuste perfectamente a tus necesidades.
           </p>
-          <Link
-            to="/contacto"
-            className="btn-primary bg-white text-gray-900 hover:bg-gray-100 inline-flex items-center space-x-2 text-lg px-8 py-4"
+          <a
+            href="https://wa.me/50660140366?text=Hola, me gustaría una cotización personalizada"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary bg-[#25D366] text-white hover:bg-[#128C7E] inline-flex items-center space-x-2 text-lg px-8 py-4"
           >
             <span>Contactar para Cotización Personalizada</span>
             <ArrowRight className="w-6 h-6" />
-          </Link>
+          </a>
         </div>
       </div>
     </div>

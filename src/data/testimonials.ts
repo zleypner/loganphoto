@@ -72,4 +72,12 @@ export const testimonials: Testimonial[] = [
     text: 'Hemos trabajado juntos en múltiples eventos y siempre entrega resultados excepcionales. Confiable, profesional y creativo. Las fotos siempre destacan la identidad de nuestros clientes.',
     image: undefined,
   },
+  {
+    id: '9',
+    name: 'Paola CEO - Nova Fusion',
+    event: 'Eventos Corporativos',
+    rating: 5,
+    text: 'Ya tenemos tiempo de trabajar en equipo, y su trabajo, responsabilidad y puntualidad han sido excelentes en cada evento. Las fotos y videos ni que decir, siempre supera nuestra expectativa. Lo recomendamos a ojos cerrados, sin duda un gran profesional, calidad de ser humano, y muy buen servicio siempre.',
+    image: undefined,
+  },
 ]

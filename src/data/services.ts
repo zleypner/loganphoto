@@ -120,7 +120,7 @@ export const services: Service[] = [
     faq: [
       {
         question: '¿Cuánto tiempo antes debo reservar?',
-        answer: 'Recomiendo reservar con al menos 3-6 meses de anticipación, especialmente en temporada alta (noviembre-febrero). Las fechas populares se agotan rápidamente.',
+        answer: 'Recomiendo reservar con al menos 3-6 meses de anticipación, especialmente en temporada alta (octubre-febrero). Las fechas populares se agotan rápidamente.',
       },
       {
         question: '¿Qué incluye la edición?',

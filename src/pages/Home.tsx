@@ -149,7 +149,7 @@ export default function Home() {
             se agotan rápidamente.
           </p>
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
-            <p className="text-3xl font-bold mb-2">Temporada Alta: Noviembre - Febrero</p>
+            <p className="text-3xl font-bold mb-2">Temporada Alta: Octubre - Febrero</p>
             <p className="text-primary-100">
               Si planeas una boda o evento importante en estos meses, te recomiendo reservar
               con al menos 4-6 meses de anticipación.
