@@ -104,7 +104,7 @@ export default function Paquetes() {
               href="https://wa.me/50660140366?text=Hola, me gustaría una cotización personalizada"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center space-x-2 bg-white text-primary-700 text-lg px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+              className="inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white text-lg px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
             >
               <span>Contactar para Cotización Personalizada</span>
               <ArrowRight className="w-5 h-5" />
