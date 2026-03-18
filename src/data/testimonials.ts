@@ -80,4 +80,28 @@ export const testimonials: Testimonial[] = [
     text: 'Ya tenemos tiempo de trabajar en equipo, y su trabajo, responsabilidad y puntualidad han sido excelentes en cada evento. Las fotos y videos ni que decir, siempre supera nuestra expectativa. Lo recomendamos a ojos cerrados, sin duda un gran profesional, calidad de ser humano, y muy buen servicio siempre.',
     image: undefined,
   },
+  {
+    id: '10',
+    name: 'Angy y Brand',
+    event: 'Boda',
+    rating: 5,
+    text: 'Nuestra experiencia con la fotografía de Logan en nuestra boda fue simplemente espectacular. Desde el primer momento demostró una gran profesionalidad, dedicación y una sensibilidad increíble para capturar cada instante especial. Logró plasmar en cada fotografía la emoción, la alegría y los detalles más hermosos de un día tan importante para nosotros. Las fotos quedaron maravillosas, naturales y llenas de vida, superando totalmente nuestras expectativas. Sin duda alguna, la recomendamos al 100%. Si buscan a alguien que capture los momentos más importantes con talento, pasión y calidad, ella es la indicada. ¡Gracias por inmortalizar nuestro día de una manera tan perfecta!',
+    image: undefined,
+  },
+  {
+    id: '11',
+    name: 'Maria Alpizar',
+    event: 'Marketing Social',
+    rating: 5,
+    text: 'He tenido el placer de colaborar con el equipo de Logan en múltiples ocasiones, es excepcional. No solo entrega un material fotográfico de altísima calidad, sino que su carisma y buena disposición hacen que el ambiente de trabajo sea fluido. ¡Altamente recomendado!',
+    image: undefined,
+  },
+  {
+    id: '12',
+    name: 'Dra. Maricruz Arias - Perfect Body',
+    event: 'Campaña de Marketing',
+    rating: 5,
+    text: 'Definitivamente el mejor fotógrafo que pudimos escoger para realizar 2 campañas de marketing de nuestra marca de fajas colombianas Perfect Body. Su dedicación en que todo salga como el cliente lo solicita es un 10/10, responsable y su trabajo es súper profesional. 100% recomendado para cualquier tipo de evento que necesiten.',
+    image: undefined,
+  },
 ]
