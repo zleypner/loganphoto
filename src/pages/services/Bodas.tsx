@@ -1,7 +1,6 @@
-import { ArrowRight, Check } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import Hero from '../../components/Hero'
 import GalleryGrid from '../../components/GalleryGrid'
-import PricingCard from '../../components/PricingCard'
 import FAQAccordion from '../../components/FAQAccordion'
 import { services } from '../../data/services'
 
@@ -62,79 +61,6 @@ export default function Bodas() {
               <p className="text-primary-600">{step.description}</p>
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* Paquetes */}
-      <section className="section-container bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 text-white">
-        <div className="text-center mb-12">
-          <h2 className="heading-2 mb-4 text-white">Paquetes de Bodas</h2>
-          <p className="text-xl text-primary-100">
-            Opciones diseñadas para diferentes necesidades y presupuestos.
-          </p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {service.packages.map((pkg, index) => (
-            <PricingCard
-              key={index}
-              name={pkg.name}
-              price={pkg.price}
-              description={`Paquete ${pkg.name} para tu boda perfecta`}
-              features={pkg.features}
-              popular={index === 1}
-            />
-          ))}
-        </div>
-      </section>
-
-      {/* Lo que incluye */}
-      <section className="section-container bg-white">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="heading-2 mb-8 text-center">¿Qué Incluye Cada Paquete?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-primary-50 rounded-lg p-6">
-              <h3 className="font-bold text-lg mb-4">En Todos los Paquetes</h3>
-              <ul className="space-y-2">
-                <li className="flex items-start">
-                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Fotografía profesional durante todo el evento</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Edición profesional de todas las fotos</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Álbum digital en alta resolución</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Derechos de uso personal</span>
-                </li>
-              </ul>
-            </div>
-            <div className="bg-primary-50 rounded-lg p-6">
-              <h3 className="font-bold text-lg mb-4">Add-ons Disponibles</h3>
-              <ul className="space-y-2">
-                <li className="flex items-start">
-                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Horas adicionales de cobertura</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Álbum físico premium adicional</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Sesiones adicionales (engagement, trash the dress)</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="w-5 h-5 text-primary-700 mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Videografía profesional</span>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
       </section>
 

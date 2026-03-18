@@ -1,7 +1,6 @@
 import { ArrowRight } from 'lucide-react'
 import Hero from '../../components/Hero'
 import GalleryGrid from '../../components/GalleryGrid'
-import PricingCard from '../../components/PricingCard'
 import FAQAccordion from '../../components/FAQAccordion'
 import { services } from '../../data/services'
 
@@ -57,27 +56,6 @@ export default function QuinceAnios() {
               <h3 className="text-xl font-bold mb-2">{step.title}</h3>
               <p className="text-primary-600">{step.description}</p>
             </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="section-container bg-gradient-to-r from-primary-700 to-primary-700 text-white">
-        <div className="text-center mb-12">
-          <h2 className="heading-2 mb-4 text-white">Paquetes de 15 Años</h2>
-          <p className="text-xl text-primary-100">
-            Opciones para hacer tu celebración perfecta.
-          </p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {service.packages.map((pkg, index) => (
-            <PricingCard
-              key={index}
-              name={pkg.name}
-              price={pkg.price}
-              description={`Paquete ${pkg.name}`}
-              features={pkg.features}
-              popular={index === 1}
-            />
           ))}
         </div>
       </section>

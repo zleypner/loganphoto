@@ -14,7 +14,7 @@ export default function Footer() {
               <img
                 src={logo}
                 alt="Logan Photography"
-                className="h-16 w-auto object-contain"
+                className="h-28 w-auto object-contain"
               />
             </Link>
             <p className="text-primary-100 mb-4 max-w-md">
@@ -50,11 +50,6 @@ export default function Footer() {
               <li>
                 <Link to="/portafolio" className="text-primary-100 hover:text-sky-blue transition-colors">
                   Portafolio
-                </Link>
-              </li>
-              <li>
-                <Link to="/paquetes" className="text-primary-100 hover:text-sky-blue transition-colors">
-                  Paquetes
                 </Link>
               </li>
               <li>

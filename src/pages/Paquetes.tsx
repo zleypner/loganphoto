@@ -1,97 +1,117 @@
-import { Link } from 'react-router-dom'
-import { ArrowRight } from 'lucide-react'
-import PricingCard from '../components/PricingCard'
-import { services } from '../data/services'
+import { Camera, Palette, Cloud, ArrowRight } from 'lucide-react'
 
 export default function Paquetes() {
   return (
-    <div className="section-container bg-primary-50 min-h-screen">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <h1 className="heading-1 mb-4">Paquetes y Precios</h1>
-          <p className="text-xl text-primary-600 max-w-3xl mx-auto">
-            Opciones diseñadas para diferentes necesidades y presupuestos. 
-            Cada paquete incluye fotografía profesional y edición de alta calidad.
+    <div className="bg-primary-50">
+      {/* Hero */}
+      <section className="section-container bg-gradient-to-br from-primary-500 via-deep-blue to-navy text-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="heading-1 mb-6 text-white">Paquetes</h1>
+          <p className="text-xl text-primary-100">
+            Servicios profesionales de fotografía adaptados a tus necesidades.
           </p>
         </div>
+      </section>
 
-        {/* Paquetes por servicio */}
-        {services.map((service) => (
-          <div key={service.id} className="mb-16">
-            <div className="text-center mb-8">
-              <h2 className="heading-2 mb-2">{service.title}</h2>
-              <Link
-                to={`/${service.slug}`}
-                className="text-primary-600 hover:text-primary-700 inline-flex items-center space-x-1"
-              >
-                <span>Ver detalles completos del servicio</span>
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {service.packages.map((pkg, index) => (
-                <PricingCard
-                  key={index}
-                  name={pkg.name}
-                  price={pkg.price}
-                  description={`Paquete ${pkg.name} para ${service.title}`}
-                  features={pkg.features}
-                  popular={index === 1}
-                />
-              ))}
-            </div>
-          </div>
-        ))}
+      {/* ¿Qué Incluyen Todos los Paquetes? */}
+      <section className="section-container">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="heading-2 mb-12 text-center text-primary-800">¿Qué Incluyen Todos los Paquetes?</h2>
 
-        {/* Comparación general */}
-        <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 mt-16">
-          <h2 className="heading-2 mb-8 text-center">¿Qué Incluyen Todos los Paquetes?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <h3 className="text-xl font-bold mb-4">Fotografía Profesional</h3>
-              <ul className="text-left space-y-2 text-primary-600">
-                <li>• Equipamiento de última generación</li>
-                <li>• Experiencia y técnica probada</li>
-                <li>• Enfoque artístico y profesional</li>
+            {/* Fotografía Profesional */}
+            <div className="bg-white rounded-[2rem] p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-deep-blue rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <Camera className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-center text-primary-800">Fotografía Profesional</h3>
+              <ul className="space-y-3">
+                <li className="flex items-start text-primary-600">
+                  <span className="text-primary-500 mr-2">•</span>
+                  Equipamiento de última generación
+                </li>
+                <li className="flex items-start text-primary-600">
+                  <span className="text-primary-500 mr-2">•</span>
+                  Experiencia y técnica probada
+                </li>
+                <li className="flex items-start text-primary-600">
+                  <span className="text-primary-500 mr-2">•</span>
+                  Enfoque artístico y profesional
+                </li>
               </ul>
             </div>
-            <div className="text-center">
-              <h3 className="text-xl font-bold mb-4">Edición de Calidad</h3>
-              <ul className="text-left space-y-2 text-primary-600">
-                <li>• Corrección de color profesional</li>
-                <li>• Retoque y optimización</li>
-                <li>• Estilo consistente y elegante</li>
+
+            {/* Edición de Calidad */}
+            <div className="bg-white rounded-[2rem] p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-deep-blue rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <Palette className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-center text-primary-800">Edición de Calidad</h3>
+              <ul className="space-y-3">
+                <li className="flex items-start text-primary-600">
+                  <span className="text-primary-500 mr-2">•</span>
+                  Corrección de color profesional
+                </li>
+                <li className="flex items-start text-primary-600">
+                  <span className="text-primary-500 mr-2">•</span>
+                  Retoque y optimización
+                </li>
+                <li className="flex items-start text-primary-600">
+                  <span className="text-primary-500 mr-2">•</span>
+                  Estilo consistente y elegante
+                </li>
               </ul>
             </div>
-            <div className="text-center">
-              <h3 className="text-xl font-bold mb-4">Entrega Premium</h3>
-              <ul className="text-left space-y-2 text-primary-600">
-                <li>• Álbum digital en alta resolución</li>
-                <li>• Formato listo para imprimir</li>
-                <li>• Acceso permanente online</li>
-                <li>• Almacenamiento en nube y link transferible</li>
+
+            {/* Entrega Premium */}
+            <div className="bg-white rounded-[2rem] p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-deep-blue rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <Cloud className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-center text-primary-800">Entrega Premium</h3>
+              <ul className="space-y-3">
+                <li className="flex items-start text-primary-600">
+                  <span className="text-primary-500 mr-2">•</span>
+                  Álbum digital en alta resolución
+                </li>
+                <li className="flex items-start text-primary-600">
+                  <span className="text-primary-500 mr-2">•</span>
+                  Formato listo para imprimir
+                </li>
+                <li className="flex items-start text-primary-600">
+                  <span className="text-primary-500 mr-2">•</span>
+                  Acceso permanente online
+                </li>
+                <li className="flex items-start text-primary-600">
+                  <span className="text-primary-500 mr-2">•</span>
+                  Almacenamiento en nube y link transferible
+                </li>
               </ul>
             </div>
           </div>
         </div>
+      </section>
 
-        {/* CTA */}
-        <div className="mt-16 text-center bg-gradient-to-br from-gray-900 to-gray-800 text-white rounded-2xl p-12">
-          <h2 className="heading-2 mb-4 text-white">¿Necesitas un Paquete Personalizado?</h2>
-          <p className="text-xl text-primary-100 mb-8">
-            Trabajemos juntos para crear un paquete que se ajuste perfectamente a tus necesidades.
-          </p>
-          <a
-            href="https://wa.me/50660140366?text=Hola, me gustaría una cotización personalizada"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary bg-[#25D366] text-white hover:bg-[#128C7E] inline-flex items-center space-x-2 text-lg px-8 py-4"
-          >
-            <span>Contactar para Cotización Personalizada</span>
-            <ArrowRight className="w-6 h-6" />
-          </a>
+      {/* ¿Necesitas un Paquete Personalizado? */}
+      <section className="section-container bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-gradient-to-br from-navy via-deep-blue to-primary-800 rounded-[2rem] p-12 text-center text-white shadow-2xl">
+            <h2 className="heading-2 mb-6 text-white">¿Necesitas un Paquete Personalizado?</h2>
+            <p className="text-xl text-primary-100 mb-8">
+              Trabajemos juntos para crear un paquete que se ajuste perfectamente a tus necesidades.
+            </p>
+            <a
+              href="https://wa.me/50660140366?text=Hola, me gustaría una cotización personalizada"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center space-x-2 bg-white text-primary-700 text-lg px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+            >
+              <span>Contactar para Cotización Personalizada</span>
+              <ArrowRight className="w-5 h-5" />
+            </a>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
   )
 }
