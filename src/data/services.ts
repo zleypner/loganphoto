@@ -488,4 +488,90 @@ export const services: Service[] = [
       },
     ],
   },
+  {
+    id: 'transmision-en-vivo',
+    title: 'Transmisión en Vivo',
+    slug: 'transmision-en-vivo',
+    description: 'Llevamos tu evento a cualquier parte del mundo con transmisión en vivo profesional. Ideal para bodas, conferencias, ceremonias y eventos especiales donde tus seres queridos no pueden estar presentes.',
+    shortDescription: 'Transmisión en vivo profesional para tus eventos.',
+    image: '/images/transmisionlive/t1.webp',
+    gallery: [
+      { id: 'trans-1', src: '/images/transmisionlive/t1.webp', alt: 'Transmisión en vivo 1' },
+      { id: 'trans-2', src: '/images/transmisionlive/t2.webp', alt: 'Transmisión en vivo 2' },
+      { id: 'trans-3', src: '/images/transmisionlive/t3.webp', alt: 'Transmisión en vivo 3' },
+      { id: 'trans-4', src: '/images/transmisionlive/t4.webp', alt: 'Transmisión en vivo 4' },
+      { id: 'trans-5', src: '/images/transmisionlive/t5.webp', alt: 'Transmisión en vivo 5' },
+      { id: 'trans-6', src: '/images/transmisionlive/t6.webp', alt: 'Transmisión en vivo 6' },
+    ],
+    packages: [
+      {
+        name: 'Básico',
+        price: 'Consultar',
+        features: [
+          'Hasta 2 horas de transmisión',
+          'Enlace compartible',
+          'Calidad HD',
+          'Soporte técnico',
+        ],
+      },
+      {
+        name: 'Estándar',
+        price: 'Consultar',
+        features: [
+          'Hasta 5 horas de transmisión',
+          'Enlace compartible y grabación',
+          'Calidad Full HD',
+          'Múltiples ángulos de cámara',
+          'Soporte técnico completo',
+        ],
+      },
+      {
+        name: 'Premium',
+        price: 'Consultar',
+        features: [
+          'Cobertura completa del evento',
+          'Transmisión + grabación en alta calidad',
+          'Almacenamiento en nube',
+          'Personalización de marca',
+          'Soporte técnico dedicado',
+        ],
+      },
+    ],
+    process: [
+      {
+        step: 1,
+        title: 'Consulta Inicial',
+        description: 'Definimos el tipo de evento, duración y plataforma de transmisión.',
+      },
+      {
+        step: 2,
+        title: 'Prueba Técnica',
+        description: 'Realizamos una prueba en la locación para garantizar la calidad de conexión.',
+      },
+      {
+        step: 3,
+        title: 'Transmisión',
+        description: 'El día del evento configuramos todo y transmitimos en vivo con monitoreo constante.',
+      },
+      {
+        step: 4,
+        title: 'Entrega',
+        description: 'Entregamos la grabación del evento si está incluida en tu paquete.',
+      },
+    ],
+    faq: [
+      {
+        question: '¿Qué necesito para la transmisión?',
+        answer: 'Solo necesitas una conexión a internet estable. Nosotros llevamos todo el equipo necesario.',
+      },
+      {
+        question: '¿En qué plataformas puedo transmitir?',
+        answer: 'Podemos transmitir en YouTube, Facebook, Zoom, o mediante un enlace privado personalizado.',
+      },
+      {
+        question: '¿Puedo obtener la grabación después?',
+        answer: 'Sí, en los paquetes Estándar y Premium incluimos la grabación completa del evento.',
+      },
+    ],
+  },
 ]

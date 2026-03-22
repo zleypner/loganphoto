@@ -56,13 +56,14 @@ export default function Home() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {featuredServices.map((service) => (
+          {featuredServices.map((service, index) => (
             <ServiceCard
               key={service.id}
               title={service.title}
               description={service.shortDescription}
               image={service.image}
               link={`/${service.slug}`}
+              priority={index < 3}
             />
           ))}
         </div>

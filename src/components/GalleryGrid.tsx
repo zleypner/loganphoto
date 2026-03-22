@@ -46,6 +46,7 @@ export default function GalleryGrid({ images, columns = 3 }: GalleryGridProps) {
                 wrapperClassName="w-full h-full"
                 className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                 onClick={() => openLightbox(index)}
+                priority={index < 6} // First 6 images load immediately
               />
             ) : (
               <div

@@ -8,6 +8,7 @@ interface ServiceCardProps {
   image?: string
   link: string
   featured?: boolean
+  priority?: boolean
 }
 
 export default function ServiceCard({
@@ -16,6 +17,7 @@ export default function ServiceCard({
   image,
   link,
   featured = false,
+  priority = false,
 }: ServiceCardProps) {
   return (
     <Link
@@ -31,6 +33,7 @@ export default function ServiceCard({
             alt={title}
             wrapperClassName="w-full h-full"
             className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+            priority={priority}
           />
         ) : (
           <div className="w-full h-full bg-gradient-to-br from-primary-400 via-deep-blue to-navy flex items-center justify-center">
