@@ -142,10 +142,8 @@ export const services: Service[] = [
     slug: '15-anios',
     description: 'Celebra esta etapa única con una sesión que refleja tu personalidad y estilo. Capturo la elegancia, la emoción y la juventud de este momento especial.',
     shortDescription: 'Celebra tus 15 años con elegancia y estilo único.',
-    image: '/images/Quince Años/MFS_7845-Enhanced-NR.webp',
+    image: '/images/Quince Años/_LP37311-Enhanced-NR-2.webp',
     gallery: [
-      { id: 'quince-4', src: '/images/Quince Años/MFS_7845-Enhanced-NR.webp', alt: 'Foto de 15 años 4' },
-      { id: 'quince-5', src: '/images/Quince Años/MFS_7922-Enhanced-NR-2.webp', alt: 'Foto de 15 años 5' },
       { id: 'quince-6', src: '/images/Quince Años/_LP30397-Enhanced-NR-2.webp', alt: 'Foto de 15 años 6' },
       { id: 'quince-7', src: '/images/Quince Años/_LP30443-Enhanced-NR.webp', alt: 'Foto de 15 años 7' },
       { id: 'quince-8', src: '/images/Quince Años/_LP30561-Enhanced-NR.webp', alt: 'Foto de 15 años 8' },
@@ -239,7 +237,6 @@ export const services: Service[] = [
       { id: 'fiesta-8', src: '/images/Chicos/MFS_7607-Enhanced-NR.webp', alt: 'Foto de fiesta 8' },
       { id: 'fiesta-9', src: '/images/Chicos/P1400360-Enhanced-NR.webp', alt: 'Foto de fiesta 9' },
       { id: 'fiesta-10', src: '/images/Chicos/P1400373-Enhanced-NR.webp', alt: 'Foto de fiesta 10' },
-      { id: 'fiesta-11', src: '/images/Quince Años/MFS_5954-Enhanced-NR.webp', alt: 'Pastel de cumpleaños Toy Story' },
     ],
     packages: [
       {
