@@ -142,11 +142,8 @@ export const services: Service[] = [
     slug: '15-anios',
     description: 'Celebra esta etapa única con una sesión que refleja tu personalidad y estilo. Capturo la elegancia, la emoción y la juventud de este momento especial.',
     shortDescription: 'Celebra tus 15 años con elegancia y estilo único.',
-    image: '/images/Quince Años/MFS_7827-Enhanced-NR.webp',
+    image: '/images/Quince Años/MFS_7845-Enhanced-NR.webp',
     gallery: [
-      { id: 'quince-1', src: '/images/Quince Años/MFS_2679-Enhanced-NR-2.webp', alt: 'Foto de 15 años 1' },
-      { id: 'quince-2', src: '/images/Quince Años/MFS_7388-Enhanced-NR.webp', alt: 'Foto de 15 años 2' },
-      { id: 'quince-3', src: '/images/Quince Años/MFS_7827-Enhanced-NR.webp', alt: 'Foto de 15 años 3' },
       { id: 'quince-4', src: '/images/Quince Años/MFS_7845-Enhanced-NR.webp', alt: 'Foto de 15 años 4' },
       { id: 'quince-5', src: '/images/Quince Años/MFS_7922-Enhanced-NR-2.webp', alt: 'Foto de 15 años 5' },
       { id: 'quince-6', src: '/images/Quince Años/_LP30397-Enhanced-NR-2.webp', alt: 'Foto de 15 años 6' },
@@ -155,6 +152,8 @@ export const services: Service[] = [
       { id: 'quince-9', src: '/images/Quince Años/_LP37189.webp', alt: 'Foto de 15 años 9' },
       { id: 'quince-10', src: '/images/Quince Años/_LP37311-Enhanced-NR-2.webp', alt: 'Foto de 15 años 10' },
       { id: 'quince-11', src: '/images/Quince Años/_LP37347-Enhanced-NR.webp', alt: 'Foto de 15 años 11' },
+      { id: 'quince-12', src: '/images/Quince Años/15.webp', alt: 'Foto de 15 años 12' },
+      { id: 'quince-13', src: '/images/Quince Años/15:2.webp', alt: 'Foto de 15 años 13' },
     ],
     packages: [
       {
@@ -414,7 +413,12 @@ export const services: Service[] = [
       { id: 'live-1', src: '/images/Editorial/1624416355114.webp', alt: 'Transmisión en vivo' },
       { id: 'live-2', src: '/images/Editorial/1624581969597.webp', alt: 'Transmisión en vivo' },
       { id: 'live-3', src: '/images/Editorial/DSC_5327-Enhanced-NR.webp', alt: 'Transmisión en vivo' },
-      { id: 'live-4', src: '/images/Editorial/DSC_5327-Enhanced-NR.webp', alt: 'Transmisión en vivo' },
+      { id: 'live-4', src: '/images/Editorial/editorial1.webp', alt: 'Editorial 1' },
+      { id: 'live-5', src: '/images/Editorial/editorial2.webp', alt: 'Editorial 2' },
+      { id: 'live-6', src: '/images/Editorial/editorial3.webp', alt: 'Editorial 3' },
+      { id: 'live-7', src: '/images/Editorial/editorial4.webp', alt: 'Editorial 4' },
+      { id: 'live-8', src: '/images/Editorial/editorial5.webp', alt: 'Editorial 5' },
+      { id: 'live-9', src: '/images/Editorial/editorial6.webp', alt: 'Editorial 6' },
     ],
     packages: [
       {
